@@ -1821,7 +1821,7 @@
         "return_to_cart_button_label": "Návrat do košíka"
       },
       "payment_gateway": {
-        "credit_card_label": "Platební karta",
+        "credit_card_label": "PLATOBNÁ KARTA",
         "bank_deposit_label": "Bankový vklad",
         "debit_card_label": "Debetná karta",
         "shop_pay": {
