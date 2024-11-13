@@ -152,12 +152,6 @@
             "page": "",
             "open": true
           }
-        },
-        "2eda680c-0225-47ec-9916-0ebb8ab9ca64": {
-          "type": "custom-liquid",
-          "settings": {
-            "custom_liquid": "{% if product.metafields.custom.manual %} \n<a href=\"{{ product.metafields.custom.manual | file_url }}\" target=\"blank\"><p style=\"font-weight:bold; text-decoration:underline;\">Manuál produktu</p></a>\n{% endif %}\n\n{% if product.metafields.custom.produktovy_list %} \n<a href=\"{{ product.metafields.custom.produktovy_list| file_url }}\" target=\"blank\"><p style=\"font-weight:bold; text-decoration:underline;\">Produktový list</p></a>\n{% endif %}\n{% if product.metafields.custom.navod_k_baterii %} \n<a href=\"{{ product.metafields.custom.navod_k_baterii | file_url }}\" target=\"blank\"><p style=\"font-weight:bold; text-decoration:underline;\">Návod k baterii</p></a>\n{% endif %}"
-          }
         }
       },
       "block_order": [

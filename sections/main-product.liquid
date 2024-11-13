@@ -372,6 +372,18 @@
     </div>
 </details>
             </details-disclosure>
+
+            {% if product.metafields.custom.manual %} 
+<a href="{{ product.metafields.custom.manual | file_url }}" target="blank"><p style="font-weight:bold; text-decoration:underline;">Manuál produktu</p></a>
+{% endif %}
+
+{% if product.metafields.custom.produktovy_list %} 
+<a href="{{ product.metafields.custom.produktovy_list| file_url }}" target="blank"><p style="font-weight:bold; text-decoration:underline;">Produktový list</p></a>
+{% endif %}
+
+{% if product.metafields.custom.navod_k_baterii %} 
+<a href="{{ product.metafields.custom.navod_k_baterii | file_url }}" target="blank"><p style="font-weight:bold; text-decoration:underline;">Návod k baterii</p></a>
+{% endif %}
           
 
           {%- when 'product-signup' -%}
