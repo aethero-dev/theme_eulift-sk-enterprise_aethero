@@ -334,40 +334,233 @@
     </summary>
     <div class="disclosure__panel has-motion">
         <div class="disclosure__content rte">
-            <p>
-                {% if product.metafields.custom.nosnost.value %}<strong>Nosnosť: </strong>{{ product.metafields.custom.nosnost.value }}<br/>{% endif %}
-                {% if product.metafields.custom.vyska_zdvihu.value %} <strong>Výška zdvihu: </strong>{{ product.metafields.custom.vyska_zdvihu.value }}<br/>{% endif %}
-                {% if product.metafields.custom.delka_vidlic.value %}<strong>Dĺžka vidlíc: </strong>{{ product.metafields.custom.delka_vidlic.value }}<br/>{% endif %}
-                {% if product.metafields.custom._karka_vidlice.value %}<strong>Šírka vidlice: </strong>{{ product.metafields.custom._karka_vidlice.value }}<br/>{% endif %}
-                {% if product.metafields.custom.roztec_vidlic_vnitrni.value %}<strong>Rozteč vidlíc vnútorné: </strong>{{ product.metafields.custom.roztec_vidlic_vnitrni.value }}<br/>{% endif %}
-                {% if product.metafields.custom.roztec_vidlic_vnejsi.value %}<strong>Rozteč vidlíc vonkajší: </strong>{{ product.metafields.custom.roztec_vidlic_vnejsi.value }}<br/>{% endif %}
-                {% if product.metafields.custom.celkova_delka.value %}<strong>Celková dĺžka:</strong> {{ product.metafields.custom.celkova_delka.value }}<br/>{% endif %}
-                {% if product.metafields.custom.celkova_sirka.value %}<strong>Celková šírka: </strong>{{ product.metafields.custom.celkova_sirka.value }}<br/>{% endif %}
-                {% if product.metafields.custom.celkova_vyska.value %}<strong>Celková výška: </strong>{{ product.metafields.custom.celkova_vyska.value }}<br/>{% endif %}
-                {% if product.metafields.custom.pohon.value %}<strong>Pohon: </strong>{{ product.metafields.custom.pohon.value }}<br/>{% endif %}
-                {% if product.metafields.custom.hmotnost.value %}<strong>Hmotnosť: </strong>{{ product.metafields.custom.hmotnost.value }}<br/>{% endif %}
-                {% if product.metafields.custom.vnitrni_rozmer.value %}<strong>Vnútorný rozmer: </strong>{{ product.metafields.custom.vnitrni_rozmer.value }}<br/>{% endif %}
-                {% if product.metafields.custom.prumer_vidlicoveho_kola.value %}<strong>Priemer vidlicového kolesa: </strong>{{ product.metafields.custom.prumer_vidlicoveho_kola.value }}<br/>{% endif %}
-                {% if product.metafields.custom.prumer_hnaciho_kola.value %}<strong>Priemer hnacieho kolesa: </strong>{{ product.metafields.custom.prumer_hnaciho_kola.value }}<br/>{% endif %}
-                {% if product.metafields.custom.minimalni_vyska_zdvihu.value %}<strong>Minimálna výška zdvihu: </strong>{{ product.metafields.custom.minimalni_vyska_zdvihu.value }}<br/>{% endif %}
-                {% if product.metafields.custom.delka_rezetu.value %}<strong>Dĺžka reťaze: </strong>{{ product.metafields.custom.delka_rezetu.value }}<br/>{% endif %}
-                {% if product.metafields.custom.osvetleni.value %}<strong>Osvetlenie: </strong>{{ product.metafields.custom.osvetleni.value }}<br/>{% endif %}
-                {% if product.metafields.custom.lozna_plocha.value %}<strong>Ložná plocha: </strong>{{ product.metafields.custom.lozna_plocha.value }}<br/>{% endif %}
-                {% if product.metafields.custom.tazna_kapacita.value %}<strong>Ťažná kapacita: </strong>{{ product.metafields.custom.tazna_kapacita.value }}<br/>{% endif %}
-                {% if product.metafields.custom.vyska_madla.value %}<strong>Výška madla: </strong>{{ product.metafields.custom.vyska_madla.value }}<br/>{% endif %}
-                {% if product.metafields.custom.rozmery_stolu.value %}<strong>Rozmery stola: </strong>{{ product.metafields.custom.rozmery_stolu.value }}<br/>{% endif %}
-                {% if product.metafields.custom.polomer_otaceni.value %}<strong>Polomer otáčania: </strong>{{ product.metafields.custom.polomer_otaceni.value }}<br/>{% endif %}
-                {% if product.metafields.custom.ovladani_zdvihu.value %}<strong>Ovládanie zdvihu: </strong>{{ product.metafields.custom.ovladani_zdvihu.value }}<br/>{% endif %}
-                {% if product.metafields.custom.vidlicova_kola.value %}<strong>Vidlicové kolesá: </strong>{{ product.metafields.custom.vidlicova_kola.value }}<br/>{% endif %}
-                {% if product.metafields.custom.material_kola.value %}<strong>Materiál kolesa: </strong>{{ product.metafields.custom.material_kola.value }}<br/>{% endif %}
-                {% if product.metafields.custom.krokov_zdvih.value %}<strong>Krokový zdvih: </strong>{{ product.metafields.custom.krokov_zdvih.value }}<br/>{% endif %}
-                {% if product.metafields.custom.motor_pojezdu.value %}<strong>Motor pojazdu: </strong>{{ product.metafields.custom.motor_pojezdu.value }}<br/>{% endif %}
-                {% if product.metafields.custom.motor_zdvihu.value %}<strong>Motor zdvihu: </strong>{{ product.metafields.custom.motor_zdvihu.value }}<br/>{% endif %}
-                {% if product.metafields.custom.napajeni.value %}<strong>Napájanie: </strong>{{ product.metafields.custom.napajeni.value }}<br/>{% endif %}
-                {% if product.metafields.custom.kapacita_baterie.value %}<strong>Kapacita batérie: </strong>{{ product.metafields.custom.kapacita_baterie.value }}<br/>{% endif %}
-                {% if product.metafields.custom.vylozeni_teziste.value %}<strong>Vyloženie ťažiska: </strong>{{ product.metafields.custom.vylozeni_teziste.value }}<br/>{% endif %}
-                {% if product.metafields.custom.maximimalni_vyska_voziku.value %}<strong>Maximálna výška vozíka: </strong>{{ product.metafields.custom.maximimalni_vyska_voziku.value }}<br/>{% endif %}
-            </p>
+          <table class="parameters-table">
+            <tbody>
+              {% if product.metafields.custom.nosnost.value %}
+              <tr>
+                <th>Nosnost:</th>
+                <td>{{ product.metafields.custom.nosnost.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.vyska_zdvihu.value %}
+              <tr>
+                <th>Výška zdvihu:</th>
+                <td>{{ product.metafields.custom.vyska_zdvihu.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.delka_vidlic.value %}
+              <tr>
+                <th>Délka vidlic:</th>
+                <td>{{ product.metafields.custom.delka_vidlic.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom._karka_vidlice.value %}
+              <tr>
+                <th>Šířka vidlice:</th>
+                <td>{{ product.metafields.custom._karka_vidlice.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.roztec_vidlic_vnitrni.value %}
+              <tr>
+                <th>Rozteč vidlic vnitřní:</th>
+                <td>{{ product.metafields.custom.roztec_vidlic_vnitrni.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.roztec_vidlic_vnejsi.value %}
+              <tr>
+                <th>Rozteč vidlic vnější:</th>
+                <td>{{ product.metafields.custom.roztec_vidlic_vnejsi.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.celkova_delka.value %}
+              <tr>
+                <th>Celková délka:</th>
+                <td>{{ product.metafields.custom.celkova_delka.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.celkova_sirka.value %}
+              <tr>
+                <th>Celková šířka:</th>
+                <td>{{ product.metafields.custom.celkova_sirka.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.celkova_vyska.value %}
+              <tr>
+                <th>Celková výška:</th>
+                <td>{{ product.metafields.custom.celkova_vyska.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.pohon.value %}
+              <tr>
+                <th>Pohon:</th>
+                <td>{{ product.metafields.custom.pohon.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.hmotnost.value %}
+              <tr>
+                <th>Hmotnost:</th>
+                <td>{{ product.metafields.custom.hmotnost.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.vnitrni_rozmer.value %}
+              <tr>
+                <th>Vnitřní rozměr:</th>
+                <td>{{ product.metafields.custom.vnitrni_rozmer.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.prumer_vidlicoveho_kola.value %}
+              <tr>
+                <th>Průměr vidlicového kola:</th>
+                <td>{{ product.metafields.custom.prumer_vidlicoveho_kola.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.prumer_hnaciho_kola.value %}
+              <tr>
+                <th>Průměr hnacího kola:</th>
+                <td>{{ product.metafields.custom.prumer_hnaciho_kola.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.minimalni_vyska_zdvihu.value %}
+              <tr>
+                <th>Minimální výška zdvihu:</th>
+                <td>{{ product.metafields.custom.minimalni_vyska_zdvihu.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.delka_rezetu.value %}
+              <tr>
+                <th>Délka řetězu:</th>
+                <td>{{ product.metafields.custom.delka_rezetu.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.osvetleni.value %}
+              <tr>
+                <th>Osvětlení:</th>
+                <td>{{ product.metafields.custom.osvetleni.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.lozna_plocha.value %}
+              <tr>
+                <th>Ložná plocha:</th>
+                <td>{{ product.metafields.custom.lozna_plocha.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.tazna_kapacita.value %}
+              <tr>
+                <th>Tažná kapacita:</th>
+                <td>{{ product.metafields.custom.tazna_kapacita.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.vyska_madla.value %}
+              <tr>
+                <th>Výška madla:</th>
+                <td>{{ product.metafields.custom.vyska_madla.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.rozmery_stolu.value %}
+              <tr>
+                <th>Rozměry stolu:</th>
+                <td>{{ product.metafields.custom.rozmery_stolu.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.polomer_otaceni.value %}
+              <tr>
+                <th>Poloměr otáčení:</th>
+                <td>{{ product.metafields.custom.polomer_otaceni.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.ovladani_zdvihu.value %}
+              <tr>
+                <th>Ovládání zdvihu:</th>
+                <td>{{ product.metafields.custom.ovladani_zdvihu.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.vidlicova_kola.value %}
+              <tr>
+                <th>Vidlicová kola:</th>
+                <td>{{ product.metafields.custom.vidlicova_kola.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.material_kola.value %}
+              <tr>
+                <th>Materiál kola:</th>
+                <td>{{ product.metafields.custom.material_kola.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.krokov_zdvih.value %}
+              <tr>
+                <th>Krokový zdvih:</th>
+                <td>{{ product.metafields.custom.krokov_zdvih.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.motor_pojezdu.value %}
+              <tr>
+                <th>Motor pojezdu:</th>
+                <td>{{ product.metafields.custom.motor_pojezdu.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.motor_zdvihu.value %}
+              <tr>
+                <th>Motor zdvihu:</th>
+                <td>{{ product.metafields.custom.motor_zdvihu.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.napajeni.value %}
+              <tr>
+                <th>Napájení:</th>
+                <td>{{ product.metafields.custom.napajeni.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.kapacita_baterie.value %}
+              <tr>
+                <th>Kapacita baterie:</th>
+                <td>{{ product.metafields.custom.kapacita_baterie.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.vylozeni_teziste.value %}
+              <tr>
+                <th>Vyložení těžiště:</th>
+                <td>{{ product.metafields.custom.vylozeni_teziste.value }}</td>
+              </tr>
+              {% endif %}
+              
+              {% if product.metafields.custom.maximimalni_vyska_voziku.value %}
+              <tr>
+                <th>Maximální výška vozíku:</th>
+                <td>{{ product.metafields.custom.maximimalni_vyska_voziku.value }}</td>
+              </tr>
+              {% endif %}
+            </tbody>
+          </table>
         </div>
     </div>
 </details>

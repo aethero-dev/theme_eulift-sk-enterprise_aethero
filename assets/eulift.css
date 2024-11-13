@@ -30,6 +30,15 @@
   padding: 0px !important;
 }
 
+/* Parameters table */
+.parameters-table tr:nth-child(odd), .product-info_grey-background {
+  background-color: #f8f8f8;  /* světle šedá barva */
+}
+
+.parameters-table th, .parameters-table td {
+  border: none !important;
+}
+
 /* home page - because of this
 
 .section--padded-default{
