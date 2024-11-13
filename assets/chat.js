@@ -7,8 +7,8 @@ var button_close = "<button id='zeman-button-close' class='btn btn--primary'styl
 
 function insertImage() {
   $(".shopify-section-group-footer-group").after(zeman);
-  $("#shopify-section-sections--23772361261435__footer").after(button);
-  $("#shopify-section-sections--23772361261435__footer").after(button_close);
+  $("#shopify-section-sections--23850517463419__footer").after(button);
+  $("#shopify-section-sections--23850517463419__footer").after(button_close);
 }
 
 function openingHours(){
