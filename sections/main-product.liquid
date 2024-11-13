@@ -179,6 +179,17 @@
               {%- endform -%}
             </div>
 
+            <div>
+              <span class="inventory-icon">
+              {% if product.metafields.custom.skladem %}
+              <img src="https://cdn.shopify.com/s/files/1/0755/1526/5333/files/skladem2.svg?v=1730722714" width="32" height="32" frameborder="0" scrolling="no" style="max-width:100%; max-height:100vw;"><br>Skladom 
+              
+              {% else %}
+              <img src="https://cdn.shopify.com/s/files/1/0755/1526/5333/files/na-ceste.svg?v=1730723003" width="32" height="32"><br>Na cestě
+              {% endif %}
+              </span>
+              </div>
+
           {%- when 'rating' -%}
             {%- if product.metafields.reviews.rating.value != blank -%}
               <div class="product-info__block product-info__block--sm product-info__rating" {{ block.shopify_attributes }}>
@@ -213,6 +224,7 @@
 
           {%- when 'inventory-status' -%}
             {% render 'product-inventory', product: product, current_variant: current_variant, block: block %}
+
 
           {%- when 'buy-buttons' -%}
             <div class="product-info__block" {{ block.shopify_attributes }}>
