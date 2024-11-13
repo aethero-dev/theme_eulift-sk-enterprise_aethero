@@ -1,0 +1,173 @@
+/* Hide language selector*/
+.localization__grid {
+  display: none;
+}
+
+/* Hide tax validation for non payers */
+
+#taxPayerValidation {
+  display: none;
+}
+
+/* Form */
+
+.na-dotaz{
+    background-color: #000;
+    border-radius: 20px;
+    color: #fff;
+    padding: 0 50px;
+    border-color: #000;
+  
+}
+
+
+/* Product page - gaps edit */
+.product-vendor-sku+.product-info__title {
+  margin-top: -18px !important;
+}
+
+.section--padded-default{
+  padding: 0px !important;
+}
+
+/* home page - because of this
+
+.section--padded-default{
+  padding: 0px !important;
+}
+
+since it moved the instafeed as well
+
+ */
+
+#insta-feed {
+  padding: calc(var(--section-gap)* var(--fluid-1-5)) 0 !important;
+}
+
+.rotation-mobile{
+  height:240px !important;
+}
+
+.product-info__block--sm {
+  margin-top: -17px !important;
+}
+
+.product-options {
+  margin-top: 0px !important;
+}
+
+
+/* Phone in header - comment bubble */
+.custom-comment {
+  visibility: hidden; 
+  position: absolute;
+  top: 60px;
+  color: black; 
+  background: #fff; 
+  border: 1px solid black; 
+  z-index: 2147483645;
+}
+
+/* Hide zeman icon on mobile */
+@media (max-width: 768px) {
+  #zeman, #zeman-button, #zeman-button-close {
+    display: none;
+  }
+}
+
+
+/*Current product bottom panel when scrolling down on product page*/
+@media (min-width: 1000px) {
+  sticky-atc-panel.sticky-atc-panel {
+    margin-right: 180px;
+  }
+}
+@media (max-width: 999px) {
+  sticky-atc-panel.sticky-atc-panel {
+    display: none;
+  }
+}
+
+/*Rotation*/
+@media (min-width: 560px) {
+.rotation-mobile {
+  display: none;
+ }
+}
+
+@media (max-width: 559px) {
+  .rotation-desktop {
+  display: none;
+ }
+}
+
+.price-with-tax {
+  margin-top:-25px
+}
+
+.inventory-icon {
+  float: right;
+  margin-top: -100px;
+  padding-right: 29%;
+}
+
+/*Icons on product page*/
+.icons-product-page-top {
+  margin-right: 50px;
+}
+.icons-text-product-page-top {
+  display: inline-block;
+  min-width: 105px;
+  list-style: none;
+}
+.icons-block-top {
+  margin-top: -40px;
+  display: inline-block;
+}
+.single-icon {
+  max-width: 100px;
+  float: left;
+}
+
+@media (max-width: 380px) {
+  .single-icon {
+    max-width: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .icons-block-top {
+  margin-top: 0px;
+    
+}
+}
+@media (max-width: 459px) {
+ .icons-text-product-page-top {
+  min-width: 85px;
+}
+  .icons-product-page-top {
+  margin-right: 30px;
+}
+}
+
+@media (max-width: 375px) {
+ .icons-text-product-page-top {
+  min-width: 68px;
+   font-size: calc(var(--body-font-size) * 0.08rem);
+}
+  .icons-product-page-top {
+  margin-right: 15px;
+    font-size: calc(var(--body-font-size) * 0.08rem);
+}
+}
+
+
+/*Bold in description*/
+
+.rte p strong {
+    font-weight: 600;
+}
+
+b, strong {
+    font-weight: bold !important;
+}
