@@ -1,1 +1,183 @@
-{"sections":{"dd3ae8a9-5acc-458d-9d90-ce02c714b2b1":{"type":"rich-text","blocks":{"template--19688902066485__dd3ae8a9-5acc-458d-9d90-ce02c714b2b1-16877653258db91c02-0":{"type":"subheading","disabled":true,"settings":{"text":"Subheading"}},"template--19688902066485__dd3ae8a9-5acc-458d-9d90-ce02c714b2b1-16877653258db91c02-1":{"type":"heading","settings":{"heading":"{{ collection.title }}","heading_size":"h2","heading_h1":true}},"template--19688902066485__dd3ae8a9-5acc-458d-9d90-ce02c714b2b1-16877653258db91c02-2":{"type":"text","disabled":true,"settings":{"text":"<p>Share information about your store with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","enlarge_text":true}},"template--19688902066485__dd3ae8a9-5acc-458d-9d90-ce02c714b2b1-16877653258db91c02-3":{"type":"button","disabled":true,"settings":{"button_1_label":"Optional button","button_1_link":"","button_1_style":"btn--primary","button_2_label":"Optional button","button_2_link":"","button_2_style":"btn btn--primary"}}},"block_order":["template--19688902066485__dd3ae8a9-5acc-458d-9d90-ce02c714b2b1-16877653258db91c02-0","template--19688902066485__dd3ae8a9-5acc-458d-9d90-ce02c714b2b1-16877653258db91c02-1","template--19688902066485__dd3ae8a9-5acc-458d-9d90-ce02c714b2b1-16877653258db91c02-2","template--19688902066485__dd3ae8a9-5acc-458d-9d90-ce02c714b2b1-16877653258db91c02-3"],"settings":{"text_align":"text-start","mob_center_text":true,"color_scheme":"none","full_width":true}},"4a5cb488-e570-4bba-811c-9831d0de0f43":{"type":"collection-list","blocks":{"template--19688902066485__4a5cb488-e570-4bba-811c-9831d0de0f43-168776537955e45e96-0":{"type":"collection","settings":{"collection":"vysokozdvizne-voziky-rucne-vedene-elektricke"}},"a933e1db-6a83-4f78-9478-941cff7a57fc":{"type":"collection","settings":{"collection":"vysokozdvizne-voziky-rucne-vedene-elektricke-standard"}},"201a77e1-2d8b-48b8-b78c-bb90d190d19a":{"type":"collection","settings":{"collection":"vysokozdvizne-voziky-rucne-vedene-elektricke-profi"}},"718e803f-fa6c-45aa-8fbc-ab38d066f32e":{"type":"collection","settings":{"collection":"vysokozdvizne-voziky-rucne-vedene-elektricke-obkrocne"}},"8359c08b-6c57-4de9-8ff0-c132b6d6a890":{"type":"collection","settings":{"collection":"vysokozdvizne-voziky-rucne-vedene-elektricke-s-prizdvihem"}},"template--19688902066485__4a5cb488-e570-4bba-811c-9831d0de0f43-168776537955e45e96-1":{"type":"collection","settings":{"collection":"vysokozdvizne-voziky-rucne-vedene-elektricke-s-protizavazim"}}},"block_order":["template--19688902066485__4a5cb488-e570-4bba-811c-9831d0de0f43-168776537955e45e96-0","a933e1db-6a83-4f78-9478-941cff7a57fc","201a77e1-2d8b-48b8-b78c-bb90d190d19a","718e803f-fa6c-45aa-8fbc-ab38d066f32e","8359c08b-6c57-4de9-8ff0-c132b6d6a890","template--19688902066485__4a5cb488-e570-4bba-811c-9831d0de0f43-168776537955e45e96-1"],"settings":{"title":"","heading_align":"text-start","button_label":"","button_link":"","layout":"carousel","card_size":"small","use_product_image":false,"circle_image":true}},"collection-products":{"type":"main-collection-products","blocks":{"b76569be-5485-456d-858c-0c26ac8ebfd5":{"type":"image-promotion","disabled":true,"settings":{"position":1,"view":"grid_list","hide_on_filter":true,"min_height":150,"content":"<p>Promotion text<\/p>","link_url":"","text_type_scale":"--h4-font-size","text_width":400,"text_alignment":"justify-center items-center text-center","text_color":"#ffffff","tint_color":"#000000","tint_opacity":20}}},"block_order":["b76569be-5485-456d-858c-0c26ac8ebfd5"],"settings":{"products_per_page":16,"card_size":"medium","show_layout_toggle":true,"enable_filtering":true,"filters_open_lg":true,"stick_on_scroll":true,"show_filter_counts":true,"expand_filters":true,"max_filter_options":7,"enable_sorting":true,"show_feat_sort_opt":true,"sort_first":true}},"collection-banner":{"type":"main-collection-banner","settings":{"show_collection_title":true,"show_product_count":false,"show_collection_description":true,"text_align":"text-start","collection_image":"natural","use_product_image":false,"text_width":"standard","color_scheme":"default"}}},"order":["dd3ae8a9-5acc-458d-9d90-ce02c714b2b1","4a5cb488-e570-4bba-811c-9831d0de0f43","collection-products","collection-banner"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten. 
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "dd3ae8a9-5acc-458d-9d90-ce02c714b2b1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19688902066485__dd3ae8a9-5acc-458d-9d90-ce02c714b2b1-16877653258db91c02-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--19688902066485__dd3ae8a9-5acc-458d-9d90-ce02c714b2b1-16877653258db91c02-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "heading_size": "h2",
+            "heading_h1": true
+          }
+        },
+        "template--19688902066485__dd3ae8a9-5acc-458d-9d90-ce02c714b2b1-16877653258db91c02-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your store with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "enlarge_text": true
+          }
+        },
+        "template--19688902066485__dd3ae8a9-5acc-458d-9d90-ce02c714b2b1-16877653258db91c02-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_label": "Optional button",
+            "button_1_link": "",
+            "button_1_style": "btn--primary",
+            "button_2_label": "Optional button",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--19688902066485__dd3ae8a9-5acc-458d-9d90-ce02c714b2b1-16877653258db91c02-0",
+        "template--19688902066485__dd3ae8a9-5acc-458d-9d90-ce02c714b2b1-16877653258db91c02-1",
+        "template--19688902066485__dd3ae8a9-5acc-458d-9d90-ce02c714b2b1-16877653258db91c02-2",
+        "template--19688902066485__dd3ae8a9-5acc-458d-9d90-ce02c714b2b1-16877653258db91c02-3"
+      ],
+      "settings": {
+        "text_align": "text-start",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true
+      }
+    },
+    "4a5cb488-e570-4bba-811c-9831d0de0f43": {
+      "type": "collection-list",
+      "blocks": {
+        "template--19688902066485__4a5cb488-e570-4bba-811c-9831d0de0f43-168776537955e45e96-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "vysokozdvizne-voziky-rucne-vedene-elektricke"
+          }
+        },
+        "a933e1db-6a83-4f78-9478-941cff7a57fc": {
+          "type": "collection",
+          "settings": {
+            "collection": "vysokozdvizne-voziky-rucne-vedene-elektricke-standard"
+          }
+        },
+        "201a77e1-2d8b-48b8-b78c-bb90d190d19a": {
+          "type": "collection",
+          "settings": {
+            "collection": "vysokozdvizne-voziky-rucne-vedene-elektricke-profi"
+          }
+        },
+        "718e803f-fa6c-45aa-8fbc-ab38d066f32e": {
+          "type": "collection",
+          "settings": {
+            "collection": "vysokozdvizne-voziky-rucne-vedene-elektricke-obkrocne"
+          }
+        },
+        "8359c08b-6c57-4de9-8ff0-c132b6d6a890": {
+          "type": "collection",
+          "settings": {
+            "collection": "vysokozdvizne-voziky-rucne-vedene-elektricke-s-prizdvihem"
+          }
+        },
+        "template--19688902066485__4a5cb488-e570-4bba-811c-9831d0de0f43-168776537955e45e96-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "vysokozdvizne-voziky-rucne-vedene-elektricke-s-protizavazim"
+          }
+        }
+      },
+      "block_order": [
+        "template--19688902066485__4a5cb488-e570-4bba-811c-9831d0de0f43-168776537955e45e96-0",
+        "a933e1db-6a83-4f78-9478-941cff7a57fc",
+        "201a77e1-2d8b-48b8-b78c-bb90d190d19a",
+        "718e803f-fa6c-45aa-8fbc-ab38d066f32e",
+        "8359c08b-6c57-4de9-8ff0-c132b6d6a890",
+        "template--19688902066485__4a5cb488-e570-4bba-811c-9831d0de0f43-168776537955e45e96-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_align": "text-start",
+        "button_label": "",
+        "button_link": "",
+        "layout": "carousel",
+        "card_size": "small",
+        "use_product_image": false,
+        "circle_image": true
+      }
+    },
+    "collection-products": {
+      "type": "main-collection-products",
+      "blocks": {
+        "b76569be-5485-456d-858c-0c26ac8ebfd5": {
+          "type": "image-promotion",
+          "disabled": true,
+          "settings": {
+            "position": 1,
+            "view": "grid_list",
+            "hide_on_filter": true,
+            "min_height": 150,
+            "content": "<p>Promotion text</p>",
+            "link_url": "",
+            "text_type_scale": "--h4-font-size",
+            "text_width": 400,
+            "text_alignment": "justify-center items-center text-center",
+            "text_color": "#ffffff",
+            "tint_color": "#000000",
+            "tint_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "b76569be-5485-456d-858c-0c26ac8ebfd5"
+      ],
+      "settings": {
+        "products_per_page": 16,
+        "card_size": "medium",
+        "show_layout_toggle": true,
+        "enable_filtering": true,
+        "filters_open_lg": true,
+        "stick_on_scroll": true,
+        "show_filter_counts": true,
+        "expand_filters": true,
+        "max_filter_options": 7,
+        "enable_sorting": true,
+        "show_feat_sort_opt": true,
+        "sort_first": true
+      }
+    },
+    "collection-banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_title": true,
+        "show_product_count": false,
+        "show_collection_description": true,
+        "text_align": "text-start",
+        "collection_image": "natural",
+        "use_product_image": false,
+        "text_width": "standard",
+        "color_scheme": "default"
+      }
+    }
+  },
+  "order": [
+    "dd3ae8a9-5acc-458d-9d90-ce02c714b2b1",
+    "4a5cb488-e570-4bba-811c-9831d0de0f43",
+    "collection-products",
+    "collection-banner"
+  ]
+}
