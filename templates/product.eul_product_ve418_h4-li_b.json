@@ -285,8 +285,8 @@
         "product-features-feature-0": {
           "type": "feature",
           "settings": {
-            "heading": "Konstrukční výška",
-            "text": "<p>při zcela spuštěných vidlicích 1750 mm, při maximálním zdvihu je max. výška vozíku 2924 mm</p>",
+            "heading": "Kabina s topením",
+            "text": "<p>Kabina zajišťuje bezpečnost a komfort pro obsluhu. Topení zvyšuje komfort obsluhy vysokozdvižného vozíku zejména v chladném počasí.</p>",
             "content_align": "text-start",
             "hotspot_x": 61,
             "hotspot_y": 11
@@ -295,33 +295,31 @@
         "product-features-feature-1": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/vysokozdvizny_vozik_elektricky_lithiovy_pohon_CDD1225J_LI_BE_OBR_01.jpg",
-            "heading": "Tlačítko želva",
-            "text": "<p>slouží ke zpomalení jízdy vozíku pro bezpečnou manipulaci</p>",
+            "heading": "Nejnovější technologie",
+            "text": "<p>přinášejí vyšší efektivitu a komfort obsluze.</p>",
             "content_align": "text-start",
-            "hotspot_x": 63,
+            "hotspot_x": 46,
             "hotspot_y": 36
           }
         },
         "product-features-feature-2": {
           "type": "feature",
           "settings": {
-            "heading": "Pohon vozíku - lithiová baterie",
-            "text": "<p>vozík pohání lithiová baterie o kapacitě 24/60 V/Ah</p>",
+            "heading": "Zásuvka",
+            "text": "<p>pro možnost zapojení rychlonabíječe</p>",
             "content_align": "text-start",
-            "hotspot_x": 55,
+            "hotspot_x": 58,
             "hotspot_y": 68
           }
         },
         "product-features-feature-3": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/vysokozdvizny_vozik_elektricky_lithiovy_pohon_CDD1220J_LI_BE_06_f9b117c6-75dc-45f4-8057-431e01e49fe0.jpg",
-            "heading": "Vestavěný nabíjecí automat",
-            "text": "<p>pro nabití vozíku stačí zastrčit konektor do zásuvky</p>",
+            "heading": "Lithiová baterie",
+            "text": "<p>vozík pohání líthiová baterie o kapacitě 80V/ 154 Ah.</p>",
             "content_align": "text-start",
-            "hotspot_x": 52,
-            "hotspot_y": 54
+            "hotspot_x": 70,
+            "hotspot_y": 64
           }
         }
       },
@@ -335,13 +333,14 @@
         "img {max-width: 50%;}"
       ],
       "settings": {
-        "product": "vysokozdvizny-vozik-cdd1225j-li-black-edition",
+        "product": "celni-elektricky-vzv-heli-h4-li-1-8-tuny-ctyrkolovy-black-edition",
         "show_content": true,
         "layout": "text_first",
         "text_align": "text-center",
         "mob_center_text": false,
         "heading_size": "h1",
         "enlarge_text": false,
+        "image": "shopify://shop_images/celni_VZV_HELI-G4-LI-BE_1_8T_3_5M_ctyrkolova_02.jpg",
         "title": "{{ section.settings.product.title }}",
         "description": "<p>Podívejte se na výhody tohoto produktu:</p>",
         "button_label": "",
@@ -391,11 +390,7 @@
         "view_more_label": "View more",
         "view_more_link": "",
         "product_list": [
-          "vysokozdvizny-vozik-cdd1220j-li",
-          "vysokozdvizny-vozik-cdd1220j-li-black-edition",
-          "vysokozdvizny-vozik-cdd1225j-li",
-          "vysokozdvizny-vozik-cdd1225j",
-          "vysokozdvizny-vozik-cdd12e-li"
+          "celni-elektricke-vzv-heli-g4-li-1-5-3-5-tuny-ctyrkolove"
         ],
         "empty_field_text": "-",
         "image_ratio": "shortest",
