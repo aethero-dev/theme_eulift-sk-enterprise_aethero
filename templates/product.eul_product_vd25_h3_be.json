@@ -305,18 +305,18 @@
         "product-features-feature-2": {
           "type": "feature",
           "settings": {
-            "heading": "Zásuvka",
-            "text": "<p>pro možnost zapojení rychlonabíječe</p>",
+            "heading": "Plnopryžové pneumatiky",
+            "text": "<p>vynikají odolností a životností</p>",
             "content_align": "text-start",
             "hotspot_x": 58,
-            "hotspot_y": 68
+            "hotspot_y": 73
           }
         },
         "product-features-feature-3": {
           "type": "feature",
           "settings": {
-            "heading": "Lithiová baterie",
-            "text": "<p>vozík pohání líthiová baterie o kapacitě 80V/ 202 Ah.</p>",
+            "heading": "Výfuk",
+            "text": "",
             "content_align": "text-start",
             "hotspot_x": 70,
             "hotspot_y": 64
@@ -333,14 +333,14 @@
         "img {max-width: 50%;}"
       ],
       "settings": {
-        "product": "celni-elektricky-vzv-heli-h4-li-2-5-tuny-ctyrkolovy-black-edition",
+        "product": "celni-dieselovy-vzv-eko-heli-h3-2-5-tuny-black-edition",
         "show_content": true,
         "layout": "text_first",
         "text_align": "text-center",
         "mob_center_text": false,
         "heading_size": "h1",
         "enlarge_text": false,
-        "image": "shopify://shop_images/VE425H4-LI-BE.png",
+        "image": "shopify://shop_images/VZVHELIVDH33_5TtriplexTUNYctyrkolova_01.jpg",
         "title": "{{ section.settings.product.title }}",
         "description": "<p>Podívejte se na výhody tohoto produktu:</p>",
         "button_label": "",
