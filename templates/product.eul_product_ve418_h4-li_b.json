@@ -198,7 +198,7 @@
     "8dc8c37e-8c63-4e4f-8838-dd3dcb77dd8e": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "{% render 'aethero-product-page-description-section'%}",
         "section_height": "default",
         "full_width": false,
         "dividers": "none",
