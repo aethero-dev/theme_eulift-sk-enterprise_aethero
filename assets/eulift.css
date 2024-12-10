@@ -24,6 +24,11 @@
   
 }
 
+/* Product page - variants */
+.opt-btn:checked+.opt-label--btn {
+  background-color: rgba(42, 174, 78, 0.3)!important;
+}
+
 
 /* Product page - gaps edit */
 .product-vendor-sku+.product-info__title {
