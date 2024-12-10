@@ -3518,7 +3518,7 @@
         "other": "{{ count }} Použité filtre"
       },
       "apply": "Použiť",
-      "clear": "jasný",
+      "clear": "Zrušiť výber",
       "clear_all": "Zmazať všetko",
       "filter_sort": "Filtrovať a triediť",
       "min_price_label": "Od",
