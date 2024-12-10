@@ -2,6 +2,10 @@
 .localization__grid {
   display: none;
 }
+/* Basic settings */
+.product-main p, .product-details p, .detailed-info p {
+  text-align: justify;
+}
 
 /* Hide tax validation for non payers */
 
@@ -97,17 +101,49 @@ since it moved the instafeed as well
   }
 }
 
-/*Rotation*/
-@media (min-width: 560px) {
-.rotation-mobile {
-  display: none;
- }
+/* Product page - rotation */
+
+
+
+.rotation-mobile-main-product{
+  height:240px !important;
 }
 
-@media (max-width: 559px) {
-  .rotation-desktop {
-  display: none;
- }
+.product-info__block--sm {
+    margin-top: -17px !important;
+}
+
+.product-options {
+    margin-top: 0px !important;
+}
+
+.product-details__block li {
+  list-style: disc;
+  margin-left: 17px;
+}
+
+@media (min-width: 1031px) {
+    .rotation-mobile-main-product {
+        display: none;
+    }
+  .rotation-product-page{
+  width: calc(var(--page-width, 1320px) + var(--gutter)* 2);
+    margin: auto;
+}
+}
+
+@media (max-width: 1030px) {
+    .rotation-desktop-main-product {
+        display: none;
+    }
+}
+
+.rotation-desktop, .rotation-mobile{
+    display:none;
+}
+
+.download-offer-btn {
+  line-height: 2.2em;
 }
 
 .price-with-tax {

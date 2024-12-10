@@ -902,7 +902,7 @@
           "type": "column",
           "settings": {
             "heading": "02. PARAMETRY",
-            "text": "<p>Nyní si potřebuje v dané kategorii říci, <strong>jaké parametry má mít</strong> vozík nebo plošina (potřebné parametry se budou lišit podle toho co chcete koupit) - zde je pár příkladů:</p><ul><li>způsob pohonu (ruční, elektrický, jiný)</li><li>potřebná nosnost  (v kg)</li><li>potřebná výška zdvihu (v mm)</li><li>potřebná délka vidlic (v mm)</li></ul><p>atd. (můžete se podívat na některý z výrobků pro představu)</p><h6><strong>A máme téměř hotovo ➔ 03</strong></h6>",
+            "text": "<p>Nyní si potřebuje v dané kategorii říci, <strong>jaké parametry má mít</strong> vozík nebo plošina (potřebné parametry se budou lišit podle toho co chcete koupit) - zde je pár příkladů:</p><ul><li>způsob pohonu (ruční, elektrický, jiný)</li><li>potřebná nosnost  (v kg)</li><li>potřebná výška zdvihu (v mm)</li><li>potřebná Dĺžka vidlíc (v mm)</li></ul><p>atd. (můžete se podívat na některý z výrobků pro představu)</p><h6><strong>A máme téměř hotovo ➔ 03</strong></h6>",
             "button_label": "",
             "button_link": ""
           }

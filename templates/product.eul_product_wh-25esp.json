@@ -15,7 +15,7 @@
         "9b54a0e5-c077-4c4d-b987-a2c9c18a7525": {
           "type": "custom-liquid",
           "settings": {
-            "custom_liquid": "<div class=\"icons-block-top\">\n{% if product.metafields.custom.nosnost %}\n<div class=\"single-icon\">\n<img class=\"icons-product-page-top\" src=\"https://cdn.shopify.com/s/files/1/0755/1526/5333/files/icons8-weight-50.png?v=1683022408\" width=\"50\" height=\"50\" frameborder=\"0\" scrolling=\"no\" style=\"max-width:100%; max-height:100vw;\"></img>\n\n<li class=\"icons-text-product-page-top\">Nosnosť</li>\n\n<strong>\n<li class=\"icons-text-product-page-top\">{{ product.metafields.custom.nosnost }}</li>\n</strong>\n</div>\n\n{% endif %}\n\n{% if product.metafields.custom.celkova_sirka %}\n<div class=\"single-icon\">\n<img class=\"icons-product-page-top\" src=\"https://cdn.shopify.com/s/files/1/0755/1526/5333/files/icons8-width-50.png?v=1687258509\" width=\"50\" height=\"50\" frameborder=\"0\" scrolling=\"no\" style=\"max-width:100%; max-height:100vw;\"></img>\n<li class=\"icons-text-product-page-top\">Šířka</li>\n<strong>\n<li class=\"icons-text-product-page-top\">{{ product.metafields.custom.celkova_sirka }}</li>\n</strong>\n</div>\n{% endif %}\n\n{% if product.metafields.custom.delka_vidlic %}\n<div class=\"single-icon\">\n<img class=\"icons-product-page-top\" src=\"https://cdn.shopify.com/s/files/1/0755/1526/5333/files/icons8-length-64.png?v=1687258509\" width=\"50\" height=\"50\" frameborder=\"0\" scrolling=\"no\" style=\"max-width:100%; max-height:100vw;\"></img>\n<li class=\"icons-text-product-page-top\">Délka vidlic</li>\n\n<strong>\n<li class=\"icons-text-product-page-top\">{{ product.metafields.custom.delka_vidlic}}</li>\n</strong>\n</div>\n{% endif %}\n\n{% if product.metafields.custom.pohon %}\n<div class=\"single-icon\">\n<img class=\"icons-product-page-top\" src=\"https://cdn.shopify.com/s/files/1/0755/1526/5333/files/icon_pohon.png?v=1683230284\" width=\"50\" height=\"50\" frameborder=\"0\" scrolling=\"no\" style=\"max-width:100%; max-height:100vw;\"></img>\n<li class=\"icons-text-product-page-top\">Pohon</li>\n<strong>\n<li class=\"icons-text-product-page-top\">{{ product.metafields.custom.pohon}}</li>\n</strong>\n</div>\n{% endif %}\n</div>"
+            "custom_liquid": "<div class=\"icons-block-top\">\n{% if product.metafields.custom.nosnost %}\n<div class=\"single-icon\">\n<img class=\"icons-product-page-top\" src=\"https://cdn.shopify.com/s/files/1/0755/1526/5333/files/icons8-weight-50.png?v=1683022408\" width=\"50\" height=\"50\" frameborder=\"0\" scrolling=\"no\" style=\"max-width:100%; max-height:100vw;\"></img>\n\n<li class=\"icons-text-product-page-top\">Nosnosť</li>\n\n<strong>\n<li class=\"icons-text-product-page-top\">{{ product.metafields.custom.nosnost }}</li>\n</strong>\n</div>\n\n{% endif %}\n\n{% if product.metafields.custom.celkova_sirka %}\n<div class=\"single-icon\">\n<img class=\"icons-product-page-top\" src=\"https://cdn.shopify.com/s/files/1/0755/1526/5333/files/icons8-width-50.png?v=1687258509\" width=\"50\" height=\"50\" frameborder=\"0\" scrolling=\"no\" style=\"max-width:100%; max-height:100vw;\"></img>\n<li class=\"icons-text-product-page-top\">Šírka</li>\n<strong>\n<li class=\"icons-text-product-page-top\">{{ product.metafields.custom.celkova_sirka }}</li>\n</strong>\n</div>\n{% endif %}\n\n{% if product.metafields.custom.delka_vidlic %}\n<div class=\"single-icon\">\n<img class=\"icons-product-page-top\" src=\"https://cdn.shopify.com/s/files/1/0755/1526/5333/files/icons8-length-64.png?v=1687258509\" width=\"50\" height=\"50\" frameborder=\"0\" scrolling=\"no\" style=\"max-width:100%; max-height:100vw;\"></img>\n<li class=\"icons-text-product-page-top\">Dĺžka vidlíc</li>\n\n<strong>\n<li class=\"icons-text-product-page-top\">{{ product.metafields.custom.delka_vidlic}}</li>\n</strong>\n</div>\n{% endif %}\n\n{% if product.metafields.custom.pohon %}\n<div class=\"single-icon\">\n<img class=\"icons-product-page-top\" src=\"https://cdn.shopify.com/s/files/1/0755/1526/5333/files/icon_pohon.png?v=1683230284\" width=\"50\" height=\"50\" frameborder=\"0\" scrolling=\"no\" style=\"max-width:100%; max-height:100vw;\"></img>\n<li class=\"icons-text-product-page-top\">Pohon</li>\n<strong>\n<li class=\"icons-text-product-page-top\">{{ product.metafields.custom.pohon}}</li>\n</strong>\n</div>\n{% endif %}\n</div>"
           }
         },
         "variant-picker": {
@@ -199,7 +199,7 @@
     "8dc8c37e-8c63-4e4f-8838-dd3dcb77dd8e": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "{% render 'aethero-product-page-description-section'%}",
         "section_height": "default",
         "full_width": false,
         "dividers": "none",
@@ -238,13 +238,7 @@
             "custom_liquid": "{% if product.metafields.custom.rotation_url != blank %}\n<center><iframe class=\"rotation-desktop\" src=\"{{ product.metafields.custom.rotation_url }}\" frameborder=\"0\" scrolling=\"no\" style=\"width: 544px; height: 408px;\"></iframe></center>\n<center><iframe class=\"rotation-mobile\" src=\"{{ product.metafields.custom.rotation_url_mobile }}\" width=\"320\" frameborder=\"0\" scrolling=\"no\" style=\"width: 320px; height: 420px;\" ></iframe></center>\n{% endif %}"
           }
         },
-        "highlight-text": {
-          "type": "highlight-text",
-          "settings": {
-            "title": "Podrobné informace",
-            "text": ""
-          }
-        },
+        
         "payment-methods": {
           "type": "payment-methods",
           "disabled": true,
@@ -256,19 +250,8 @@
             "title2": "",
             "text2": ""
           }
-        },
-        "2dc4ffc2-fb7c-4fcc-851e-af90eecbfb0a": {
-          "type": "custom-liquid",
-          "settings": {
-            "custom_liquid": "<div id=\"{{ product.url }} /description\"></div>"
-          }
-        },
-        "6d0d33e5-69ec-43f4-becf-3605f1e72c47": {
-          "type": "custom-liquid",
-          "settings": {
-            "custom_liquid": "{{ product.description }}"
-          }
         }
+    
       },
       "block_order": [
         "tabs",
