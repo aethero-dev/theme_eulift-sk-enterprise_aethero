@@ -74,12 +74,7 @@
             "show_tax_and_shipping": false
           }
         },
-        "74fcb4e7-3982-4233-8412-790c84380ec6": {
-          "type": "custom-liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"price-with-tax\">{{ product.price | times: 1.21 | money }} s DPH</div>\n\n<div class=\"delivery\">Doručenie: {{ 0 | money }}</div>"
-          }
-        },
+        
         "buy-buttons": {
           "type": "buy-buttons",
           "settings": {

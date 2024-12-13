@@ -79,6 +79,43 @@
       :root { --product-info-width: 400px !important; }
     }
   {%- endif -%}
+
+  .product-slider {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background: #ddd;
+    outline: none;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #1a66d2;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #1a66d2;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .slider-labels {
+    color: #666;
+  }
 {%- endstyle -%}
 
 {%- if first_3d_model -%}
@@ -101,6 +138,8 @@
           first_3d_model: first_3d_model,
           zoom: section.settings.hover_zoom
         %}
+        
+      
       {%- else -%}
         <div class="media relative">
           {{ 'image' | placeholder_svg_tag: 'media__placeholder' }}
@@ -179,7 +218,12 @@
               {%- endform -%}
             </div>
 
-        {%- comment -%}Aethero code edit start{%- endcomment -%}  
+        {%- comment -%}Aethero code edit start{%- endcomment -%} 
+        <div class="price-with-tax"><span id="tax-price">{{ product.price | times: 1.20 | money }} s DPH</span></div>
+        <div class="delivery">
+          Doručenie: {{ 0 | money }}
+</div>
+ 
       <div>
               <span class="inventory-icon">
               {% if product.metafields.custom.skladem == true %}
@@ -719,6 +763,47 @@
   <center><img class="banner-rotace-main-product" src="{{ product.metafields.custom.banner_rotace | image_url }}" width="544" height="408"></center>
 {% endif %}
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const slider = document.getElementById('productSlider');
+    if (slider) {
+      slider.addEventListener('input', function() {
+        const mediaItems = document.querySelectorAll('.media-gallery__main .media');
+        const index = this.value - 1;
+        
+        mediaItems.forEach((item, i) => {
+          if (i === index) {
+            item.classList.add('active');
+          } else {
+            item.classList.remove('active');
+          }
+        });
+      });
+    }
+  });
+
+  const priceWithTaxElement = document.getElementById('tax-price');
+    
+  function updateTaxPrice(variant){
+    exactPrice = variant.price/100;
+    const formattedPrice = new Intl.NumberFormat('cs-CZ', {
+      style: 'currency',
+      currency: 'CZK'
+  }).format(exactPrice * 1.20);
+    priceWithTaxElement.innerHTML = formattedPrice + ' s DPH';
+  }
+
+  document.querySelector('[name="id"]').addEventListener('change', function() {
+    var selectedVariantId = this.value;
+    var selectedVariant = {{ product.variants | json }}
+        .find(variant => variant.id == selectedVariantId);
+        updateTaxPrice(selectedVariant)
+    // Aktualizace informací o variantě
+    //console.log('Vybraná varianta:', selectedVariant.price * 1.20);
+});
+
+</script>
 
 {% schema %}
 {

@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
               .replace(/\s+/g, '')
               .replace(/[^0-9,]/g, '');
             
-            console.log('Původní cena:', originalPrice);
-            console.log('Zpracovaná cena:', priceText);
+           // console.log('Původní cena:', originalPrice);
+            //console.log('Zpracovaná cena:', priceText);
             
             button.dataset.productPrice = priceText;
           }
@@ -36,10 +36,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const priceObserver = new MutationObserver((mutations) => {
       mutations.forEach((mutation) => {
         if (mutation.type === 'characterData' || mutation.type === 'childList') {
-          console.log('Detekována změna ceny v DOM');
+          //console.log('Detekována změna ceny v DOM');
           const priceElement = document.querySelector('.price__current');
           if (priceElement) {
-            console.log('Nová cena v DOM:', priceElement.textContent.trim());
+            //console.log('Nová cena v DOM:', priceElement.textContent.trim());
           }
         }
       });
