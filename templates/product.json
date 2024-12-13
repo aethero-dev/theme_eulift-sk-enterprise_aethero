@@ -171,8 +171,7 @@
         "collapsible-content-2",
         "share",
         "message-3",
-        "3e20cfb2-9a29-4ede-a25d-a0b558debdfa",
-        "2eda680c-0225-47ec-9916-0ebb8ab9ca64"
+        "3e20cfb2-9a29-4ede-a25d-a0b558debdfa"
       ],
       "settings": {
         "stick_on_scroll": true,
@@ -199,7 +198,7 @@
     "f581de30-ad9f-4e74-91e8-7587354cc3c6": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "{% render 'aethero-product-page-description-section'%}",
         "section_height": "default",
         "full_width": false,
         "dividers": "none",
@@ -289,7 +288,6 @@
             "custom_liquid": "{% if product.metafields.custom.rotation_url != blank %}\n<center><iframe class=\"rotation-desktop\" src=\"{{ product.metafields.custom.rotation_url }}\" frameborder=\"0\" scrolling=\"no\" style=\"width: 544px; height: 408px;\"></iframe></center>\n<center><iframe class=\"rotation-mobile\" src=\"{{ product.metafields.custom.rotation_url_mobile }}\" width=\"320\" frameborder=\"0\" scrolling=\"no\" style=\"width: 320px; height: 420px;\" ></iframe></center>\n{% endif %}"
           }
         },
-        
         "payment-methods": {
           "type": "payment-methods",
           "disabled": true,
@@ -302,15 +300,11 @@
             "text2": ""
           }
         }
-    
       },
       "block_order": [
         "tabs",
         "2dc71c1b-947c-43bf-b36f-1d8291092554",
-        "highlight-text",
-        "payment-methods",
-        "2dc4ffc2-fb7c-4fcc-851e-af90eecbfb0a",
-        "6d0d33e5-69ec-43f4-becf-3605f1e72c47"
+        "payment-methods"
       ],
       "settings": {}
     },
@@ -606,8 +600,8 @@
   },
   "order": [
     "main",
-    "f581de30-ad9f-4e74-91e8-7587354cc3c6",
     "15866fc9-4ab1-4cd7-9b63-4454e32b632e",
+    "f581de30-ad9f-4e74-91e8-7587354cc3c6",
     "details",
     "product-features",
     "product-comparison-grid",
