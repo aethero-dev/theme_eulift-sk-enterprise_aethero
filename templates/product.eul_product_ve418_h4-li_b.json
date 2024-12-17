@@ -77,7 +77,7 @@
         "custom_liquid_xNk8JN": {
           "type": "custom-liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "{% render 'aethero-email-input' %}"
           }
         },
         "buy-buttons": {
