@@ -1,0 +1,70 @@
+
+<style>
+    .contact-capture-container {
+        max-width: 600px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .contact-input {
+        width: 70%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        padding:10px;
+        float: left;
+    }
+
+    .submit-button {
+        width:25%;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-left: 15px;
+    }
+
+    .submit-button:hover {
+        background-color: #0056b3;
+    }
+
+    .message {
+        margin-top: 15px;
+        font-weight: bold;
+    }
+
+    .success {
+        color: green;
+    }
+
+    .error {
+        color: red;
+    }
+
+    .message {
+        display: none;
+    }
+</style>
+  <div class="contact-capture-container">
+    <p><span style="color: #E0A750; font-weight: 600;">Získejte odměnu v podobě slevy na produkt 2000 Kč</span> a&nbsppodrobnou video prezentaci o produktu {{ product.title }} jako bonus. Zanechte nám na sebe kontakt a odměna je vaše.</p>
+    <div><input 
+      type="email" 
+      name="contact[email]"
+      id="contactInput" 
+      class="contact-input" 
+      placeholder="Zadejte váš email nebo telefonní číslo"
+      required
+    >
+    <button type="submit" id="submitButton" class="btn btn--secondary btn--sm">
+      Odeslat
+    </button>
+  </div>
+  <div style="margin-top: 15px;">
+    <p style="font-size: 12px;">Odesláním souhlasíte se <a href="/pages/gdpr" style="text-decoration: underline;">Zpracováním osobních údajů</a></p>
+  </div>
+      <div class="message success">Děkujeme! Váš kontakt jsme obdrželi a brzo se vám ozveme.</div>
+      <div class="message error">Něco se pokazilo. Zkuste to znovu.</div>
+  </div>
+
+
+
+
+
