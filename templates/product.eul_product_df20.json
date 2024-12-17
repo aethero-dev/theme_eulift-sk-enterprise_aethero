@@ -311,7 +311,7 @@
         "mob_center_text": false,
         "heading_size": "h1",
         "enlarge_text": false,
-        "image": "shopify://shop_images/paletovy_vozik_standardni_df20pu_001.jpg",
+        "image": "shopify://shop_images/paletovy_vozik_standardni_DF20PU_001.jpg",
         "title": "{{ section.settings.product.title }}",
         "description": "<p>Podívejte se na výhody tohoto produktu:</p>",
         "button_label": "",

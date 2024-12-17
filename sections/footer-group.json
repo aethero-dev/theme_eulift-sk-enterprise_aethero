@@ -11,6 +11,16 @@
   "type": "footer",
   "name": "Footer Group",
   "sections": {
+    "custom_liquid_CFjLxQ": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"insta-feed\"></div>",
+        "section_height": "default",
+        "full_width": false,
+        "dividers": "none",
+        "prevent_animation": false
+      }
+    },
     "icons-with-text": {
       "type": "icons-with-text",
       "blocks": {
@@ -115,6 +125,7 @@
     }
   },
   "order": [
+    "custom_liquid_CFjLxQ",
     "icons-with-text",
     "footer"
   ]
