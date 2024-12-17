@@ -13,10 +13,13 @@
   "sections": {
     "custom_liquid_CFjLxQ": {
       "type": "custom-liquid",
+      "custom_css": [
+        "#insta-feed {margin-bottom: -40px; margin-top: -30px;}"
+      ],
       "settings": {
         "custom_liquid": "<div id=\"insta-feed\"></div>",
         "section_height": "default",
-        "full_width": false,
+        "full_width": true,
         "dividers": "none",
         "prevent_animation": false
       }
