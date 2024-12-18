@@ -508,6 +508,39 @@
         "card_size": "small",
         "products_to_show": 8
       }
+    },
+    "video_agHMgm": {
+      "type": "video",
+      "blocks": {
+        "heading_DBcwnj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Video o produkte",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_BHbL3V": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Predný vysokozdvižný vozík diesel HELI H3 BLACK EDITION - prezentácia vozíka</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_DBcwnj",
+        "text_BHbL3V"
+      ],
+      "settings": {
+        "video_external": "https://vimeo.com/manage/videos/1040315323",
+        "video_description": "",
+        "poster_image": "shopify://shop_images/video_uvodni_obr_HELI_vysokozdvizne_voziky_celni_H3_BLACK_EDITION_927x506_d393c3f4-8106-4bd2-8ea2-b0a38f139cf8.jpg",
+        "video_size": "md",
+        "video_autoplay": false,
+        "text_align": "text-center",
+        "color_scheme": "1"
+      }
     }
   },
   "order": [
@@ -518,6 +551,7 @@
     "product-comparison-grid",
     "collection-list",
     "image-banner",
-    "recommendations"
+    "recommendations",
+    "video_agHMgm"
   ]
 }
