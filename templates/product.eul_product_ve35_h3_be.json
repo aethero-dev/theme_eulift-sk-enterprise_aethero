@@ -276,7 +276,7 @@
       "settings": {
         "video_external": "https://vimeo.com/manage/videos/1040315323",
         "video_description": "",
-        "poster_image": "shopify://shop_images/video_uvodni_obr_HELI_vysokozdvizne_voziky_celni_H3_BLACK_EDITION_927x506_d393c3f4-8106-4bd2-8ea2-b0a38f139cf8.jpg",
+        "poster_image": "shopify://shop_images/927x506.jpg",
         "video_size": "md",
         "video_autoplay": true,
         "text_align": "text-center",
