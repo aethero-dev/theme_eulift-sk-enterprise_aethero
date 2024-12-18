@@ -257,6 +257,39 @@
       ],
       "settings": {}
     },
+    "video_7CjAbE": {
+      "type": "video",
+      "blocks": {
+        "heading_awwV3B": {
+          "type": "heading",
+          "settings": {
+            "heading": "Video o produkte",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_nwDBhT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Predné elektrické vysokozdvižné vozíky HELI H4-LI štvorkolesové BLACK EDITION</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_awwV3B",
+        "text_nwDBhT"
+      ],
+      "settings": {
+        "video_external": "https://vimeo.com/manage/videos/1032987201",
+        "video_description": "",
+        "poster_image": "shopify://shop_images/video_uvodni_obr_HELI_celni_H4_LI_BLACK_EDITION_927x506_84b78495-cb82-4e97-b8f7-affb67fd2e07.jpg",
+        "video_size": "md",
+        "video_autoplay": false,
+        "text_align": "text-center",
+        "color_scheme": "1"
+      }
+    },
     "product-features": {
       "type": "product-features",
       "blocks": {
@@ -509,50 +542,17 @@
         "card_size": "small",
         "products_to_show": 8
       }
-    },
-    "video_7CjAbE": {
-      "type": "video",
-      "blocks": {
-        "heading_awwV3B": {
-          "type": "heading",
-          "settings": {
-            "heading": "Video o produkte",
-            "heading_size": "h1",
-            "heading_h1": false
-          }
-        },
-        "text_nwDBhT": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Predné elektrické vysokozdvižné vozíky HELI H4-LI štvorkolesové BLACK EDITION</p>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_awwV3B",
-        "text_nwDBhT"
-      ],
-      "settings": {
-        "video_external": "https://vimeo.com/manage/videos/1032987201",
-        "video_description": "",
-        "poster_image": "shopify://shop_images/video_uvodni_obr_HELI_celni_H4_LI_BLACK_EDITION_927x506_84b78495-cb82-4e97-b8f7-affb67fd2e07.jpg",
-        "video_size": "md",
-        "video_autoplay": false,
-        "text_align": "text-center",
-        "color_scheme": "1"
-      }
     }
   },
   "order": [
     "main",
     "8dc8c37e-8c63-4e4f-8838-dd3dcb77dd8e",
     "details",
+    "video_7CjAbE",
     "product-features",
     "product-comparison-grid",
     "collection-list",
     "image-banner",
-    "recommendations",
-    "video_7CjAbE"
+    "recommendations"
   ]
 }
