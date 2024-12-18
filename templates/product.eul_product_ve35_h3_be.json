@@ -250,6 +250,39 @@
       ],
       "settings": {}
     },
+    "video_Q3x9FM": {
+      "type": "video",
+      "blocks": {
+        "heading_kLP8Dy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Video o produkte",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_fJYpmM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Čelní vysokozdvižné vozíky diesel HELI H3 BLACK EDITION</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_kLP8Dy",
+        "text_fJYpmM"
+      ],
+      "settings": {
+        "video_external": "https://vimeo.com/manage/videos/1040315323",
+        "video_description": "",
+        "poster_image": "shopify://shop_images/video_uvodni_obr_HELI_vysokozdvizne_voziky_celni_H3_BLACK_EDITION_927x506_d393c3f4-8106-4bd2-8ea2-b0a38f139cf8.jpg",
+        "video_size": "md",
+        "video_autoplay": true,
+        "text_align": "text-center",
+        "color_scheme": "1"
+      }
+    },
     "product-features": {
       "type": "product-features",
       "blocks": {
@@ -503,50 +536,17 @@
         "card_size": "small",
         "products_to_show": 8
       }
-    },
-    "video_Q3x9FM": {
-      "type": "video",
-      "blocks": {
-        "heading_kLP8Dy": {
-          "type": "heading",
-          "settings": {
-            "heading": "Video o produkte",
-            "heading_size": "h1",
-            "heading_h1": false
-          }
-        },
-        "text_fJYpmM": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Čelní vysokozdvižné vozíky diesel HELI H3 BLACK EDITION</p>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_kLP8Dy",
-        "text_fJYpmM"
-      ],
-      "settings": {
-        "video_external": "https://vimeo.com/manage/videos/1040315323",
-        "video_description": "",
-        "poster_image": "shopify://shop_images/video_uvodni_obr_HELI_vysokozdvizne_voziky_celni_H3_BLACK_EDITION_927x506_d393c3f4-8106-4bd2-8ea2-b0a38f139cf8.jpg",
-        "video_size": "md",
-        "video_autoplay": true,
-        "text_align": "text-center",
-        "color_scheme": "1"
-      }
     }
   },
   "order": [
     "main",
     "8dc8c37e-8c63-4e4f-8838-dd3dcb77dd8e",
     "details",
+    "video_Q3x9FM",
     "product-features",
     "product-comparison-grid",
     "collection-list",
     "image-banner",
-    "recommendations",
-    "video_Q3x9FM"
+    "recommendations"
   ]
 }
