@@ -250,11 +250,34 @@
       ],
       "settings": {}
     },
+    "rich_text_3jif9F": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ntqzhp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Videá o produktu",
+            "heading_size": "h2",
+            "heading_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ntqzhp"
+      ],
+      "settings": {
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true
+      }
+    },
     "video_Q3x9FM": {
       "type": "video",
       "blocks": {
         "heading_kLP8Dy": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Video o produkte",
             "heading_size": "h1",
@@ -264,7 +287,7 @@
         "text_fJYpmM": {
           "type": "text",
           "settings": {
-            "text": "<p>Čelní vysokozdvižné vozíky diesel HELI H3 BLACK EDITION</p>",
+            "text": "<p><strong>Čelní vysokozdvižné vozíky dieselové HELI H3 BLACK EDITION - predstavenie </strong></p>",
             "enlarge_text": true
           }
         }
@@ -273,12 +296,52 @@
         "heading_kLP8Dy",
         "text_fJYpmM"
       ],
+      "custom_css": [
+        "@media (min-width: 768px) {.cc-video {display: inline-block; width: 50%; vertical-align: top; }}"
+      ],
       "settings": {
         "video_external": "https://vimeo.com/manage/videos/1040315323",
         "video_description": "",
         "poster_image": "shopify://shop_images/927x506.jpg",
         "video_size": "md",
-        "video_autoplay": true,
+        "video_autoplay": false,
+        "text_align": "text-center",
+        "color_scheme": "1"
+      }
+    },
+    "video_YciHHy": {
+      "type": "video",
+      "blocks": {
+        "heading_mgpgF3": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Video",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_zcRmGG": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>HELI H4-LI BLACK EDITION predné elektrické vysokozdvižné vozíky</strong></p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_mgpgF3",
+        "text_zcRmGG"
+      ],
+      "custom_css": [
+        "@media (min-width: 768px) {.cc-video {display: inline-block; width: 50%; vertical-align: top; }}"
+      ],
+      "settings": {
+        "video_external": "https://vimeo.com/manage/videos/1032987201",
+        "video_description": "",
+        "poster_image": "shopify://shop_images/video_uvodni_obr_HELI_celni_H4_LI_BLACK_EDITION_927x506_84b78495-cb82-4e97-b8f7-affb67fd2e07.jpg",
+        "video_size": "md",
+        "video_autoplay": false,
         "text_align": "text-center",
         "color_scheme": "1"
       }
@@ -542,7 +605,9 @@
     "main",
     "8dc8c37e-8c63-4e4f-8838-dd3dcb77dd8e",
     "details",
+    "rich_text_3jif9F",
     "video_Q3x9FM",
+    "video_YciHHy",
     "product-features",
     "product-comparison-grid",
     "collection-list",
