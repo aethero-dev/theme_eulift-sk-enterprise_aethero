@@ -250,11 +250,34 @@
       ],
       "settings": {}
     },
+    "rich_text_nJiXtB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_m88NLF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Videá o produktu",
+            "heading_size": "h2",
+            "heading_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_m88NLF"
+      ],
+      "settings": {
+        "text_align": "text-center",
+        "mob_center_text": true,
+        "color_scheme": "none",
+        "full_width": true
+      }
+    },
     "video_nV39mH": {
       "type": "video",
       "blocks": {
         "heading_ggBBnP": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Video o produkte",
             "heading_size": "h1",
@@ -272,6 +295,9 @@
       "block_order": [
         "heading_ggBBnP",
         "text_UD4zmn"
+      ],
+      "custom_css": [
+        "@media (min-width: 768px) {.cc-video {display: inline-block; width: 50%; vertical-align: top; }}"
       ],
       "settings": {
         "video_external": "https://vimeo.com/manage/videos/1040315323",
@@ -541,6 +567,7 @@
     "main",
     "8dc8c37e-8c63-4e4f-8838-dd3dcb77dd8e",
     "details",
+    "rich_text_nJiXtB",
     "video_nV39mH",
     "product-features",
     "product-comparison-grid",
