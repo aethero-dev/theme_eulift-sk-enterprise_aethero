@@ -4,7 +4,7 @@
  *
  * This file may be updated by the Shopify admin theme editor
  * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten. 
+ * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
 {
@@ -70,12 +70,6 @@
             "collection": "prodlouzeni-vidlic"
           }
         },
-        "8f4ba950-c26d-4b15-b76a-185a35c4aeaf": {
-          "type": "collection",
-          "settings": {
-            "collection": "pneumatiky-k-vzv"
-          }
-        },
         "43678b9b-51ce-4e0d-8c98-c0fee5a626d7": {
           "type": "collection",
           "settings": {
@@ -103,7 +97,6 @@
       },
       "block_order": [
         "0d9a33f1-372f-436f-a41b-020d91ed5375",
-        "8f4ba950-c26d-4b15-b76a-185a35c4aeaf",
         "43678b9b-51ce-4e0d-8c98-c0fee5a626d7",
         "9ae08251-0842-4fc4-9023-2ddad2c8dc7c",
         "9c824202-d3bf-4d79-8e5d-bf036d622b0c",
