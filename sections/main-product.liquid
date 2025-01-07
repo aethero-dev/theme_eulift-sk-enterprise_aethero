@@ -390,28 +390,12 @@
               </details>
 <div class="pdf-download-block">
           <div class="mt-4 download-block">
-              {% if product.metafields.custom.manual %} 
-                <a href="{{ product.metafields.custom.manual | file_url }}" target="blank"><p style="font-weight:bold; text-decoration:underline;">Manuál produktu</p></a>
-            {% endif %}
-              
-            {% if product.metafields.custom.produktovy_list %} 
-              <a href="{{ product.metafields.custom.produktovy_list| file_url }}" target="blank"><p style="font-weight:bold; text-decoration:underline;">Produktový list</p></a>
-            {% endif %}
-              
-            {% if product.metafields.custom.navod_k_baterii %} 
-              <a href="{{ product.metafields.custom.navod_k_baterii | file_url }}" target="blank"><p style="font-weight:bold; text-decoration:underline;">Návod k baterii</p></a>
-            {% endif %}
-              
-            {% if product.metafields.custom.sk_navod_k_nabijecce %} 
-              <a href="{{ product.metafields.custom.cz_navod_k_nabijecce | file_url }}" target="blank"><p style="font-weight:bold; text-decoration:underline;">Návod k nabíjačce</p></a>
-            {% endif %}
-          </div>
-          {% if product.price == 0 %} 
+            {% if product.price == 0 %} 
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
             <script src="{{ 'aethero-product-pdf-generator.js' | asset_url }}" defer="defer"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js" defer></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js" defer></script>
-          <div class="download-offer-button-wrapper mt-4">
+          <div class="download-offer-button-wrapper mt-4 mb-12">
             <button 
               class="btn btn--secondary btn--sm download-offer-btn"
               onclick="generateAndDownloadPDF()"
@@ -457,6 +441,22 @@
             </button>
           </div>
           {% endif %}
+              {% if product.metafields.custom.manual %} 
+                <a href="{{ product.metafields.custom.manual | file_url }}" target="blank"><p style="font-weight:bold; text-decoration:underline;">Manuál produktu</p></a>
+            {% endif %}
+              
+            {% if product.metafields.custom.produktovy_list %} 
+              <a href="{{ product.metafields.custom.produktovy_list| file_url }}" target="blank"><p style="font-weight:bold; text-decoration:underline;">Produktový list</p></a>
+            {% endif %}
+              
+            {% if product.metafields.custom.navod_k_baterii %} 
+              <a href="{{ product.metafields.custom.navod_k_baterii | file_url }}" target="blank"><p style="font-weight:bold; text-decoration:underline;">Návod k baterii</p></a>
+            {% endif %}
+              
+            {% if product.metafields.custom.sk_navod_k_nabijecce %} 
+              <a href="{{ product.metafields.custom.cz_navod_k_nabijecce | file_url }}" target="blank"><p style="font-weight:bold; text-decoration:underline;">Návod k nabíjačce</p></a>
+            {% endif %}
+          </div>
 </div>
             </details-disclosure>
           
