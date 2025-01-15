@@ -250,6 +250,39 @@
       ],
       "settings": {}
     },
+    "video_fjTW8b": {
+      "type": "video",
+      "blocks": {
+        "heading_hhGfnw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Video o produkte",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_RykEnz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>paletový vozík BF25 BLACK EDITION</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_hhGfnw",
+        "text_RykEnz"
+      ],
+      "settings": {
+        "video_external": "https://vimeo.com/manage/videos/1047109484",
+        "video_description": "",
+        "poster_image": "shopify://shop_images/bf25_be_544x408_ad2d6e98-3a72-4db1-acd6-99235199e2bb.jpg",
+        "video_size": "md",
+        "video_autoplay": false,
+        "text_align": "text-center",
+        "color_scheme": "1"
+      }
+    },
     "product-features": {
       "type": "product-features",
       "blocks": {
@@ -502,50 +535,17 @@
         "card_size": "small",
         "products_to_show": 8
       }
-    },
-    "video_fjTW8b": {
-      "type": "video",
-      "blocks": {
-        "heading_hhGfnw": {
-          "type": "heading",
-          "settings": {
-            "heading": "Video o produkte",
-            "heading_size": "h1",
-            "heading_h1": false
-          }
-        },
-        "text_RykEnz": {
-          "type": "text",
-          "settings": {
-            "text": "<p>paletový vozík BF25 BLACK EDITION</p>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_hhGfnw",
-        "text_RykEnz"
-      ],
-      "settings": {
-        "video_external": "https://vimeo.com/manage/videos/1047109484",
-        "video_description": "",
-        "poster_image": "shopify://shop_images/bf25_be_544x408_ad2d6e98-3a72-4db1-acd6-99235199e2bb.jpg",
-        "video_size": "md",
-        "video_autoplay": false,
-        "text_align": "text-center",
-        "color_scheme": "1"
-      }
     }
   },
   "order": [
     "main",
     "8dc8c37e-8c63-4e4f-8838-dd3dcb77dd8e",
     "details",
+    "video_fjTW8b",
     "product-features",
     "product-comparison-grid",
     "collection-list",
     "image-banner",
-    "recommendations",
-    "video_fjTW8b"
+    "recommendations"
   ]
 }
