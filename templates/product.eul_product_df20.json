@@ -198,6 +198,40 @@
         "prevent_animation": false
       }
     },
+    "video_W3tNFw": {
+      "type": "video",
+      "blocks": {
+        "heading_eQrWkq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Video o produkte",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_rGdiA8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>paletový vozík štandardný DF20</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_eQrWkq",
+        "text_rGdiA8"
+      ],
+      "disabled": true,
+      "settings": {
+        "video_external": "https://vimeo.com/manage/videos/1047482439",
+        "video_description": "",
+        "poster_image": "shopify://shop_images/df20_uvodni_544x408_316452d7-9748-4f42-995e-136621685913.jpg",
+        "video_size": "md",
+        "video_autoplay": false,
+        "text_align": "text-center",
+        "color_scheme": "1"
+      }
+    },
     "details": {
       "type": "product-details",
       "blocks": {
@@ -508,6 +542,7 @@
   "order": [
     "main",
     "8dc8c37e-8c63-4e4f-8838-dd3dcb77dd8e",
+    "video_W3tNFw",
     "details",
     "product-features",
     "product-comparison-grid",
