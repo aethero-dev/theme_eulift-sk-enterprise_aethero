@@ -12,6 +12,38 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "slide_rRGHcC": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify://shop_images/vyprodej_022025_sk.jpg",
+            "image_mobile": "shopify://shop_images/vyprodej_022025_2560px_sk.jpg",
+            "overlay_position": "justify-start items-start",
+            "overlay_text_align": "text-start",
+            "mob_center_text": false,
+            "subheading": "Subheading",
+            "heading": "EXTRÉMNY PREDAJ ZÁSOB",
+            "heading_size": "h0",
+            "heading_h1": true,
+            "text": "<p>za ceny, ktoré sa už nebudú opakovať</p>",
+            "enlarge_text": true,
+            "button_1_label": "Jdu si vybtať",
+            "button_1_link": "shopify://pages/vypredaj",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#fff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
         "slide-1": {
           "type": "slide",
           "settings": {
@@ -139,46 +171,14 @@
             "bg_color": "#070707",
             "bg_grad": ""
           }
-        },
-        "slide_rRGHcC": {
-          "type": "slide",
-          "settings": {
-            "image_desktop": "shopify://shop_images/vyprodej_022025_sk.jpg",
-            "image_mobile": "shopify://shop_images/vyprodej_022025_2560px_sk.jpg",
-            "overlay_position": "justify-start items-start",
-            "overlay_text_align": "text-start",
-            "mob_center_text": false,
-            "subheading": "Subheading",
-            "heading": "EXTRÉMNY PREDAJ ZÁSOB",
-            "heading_size": "h0",
-            "heading_h1": true,
-            "text": "<p>za ceny, ktoré sa už nebudú opakovať</p>",
-            "enlarge_text": true,
-            "button_1_label": "Jdu si vybtať",
-            "button_1_link": "shopify://pages/vypredaj",
-            "button_1_style": "btn btn--primary",
-            "button_2_label": "",
-            "button_2_link": "",
-            "button_2_style": "btn btn--primary",
-            "countdown_show": false,
-            "countdown_end_date": "",
-            "countdown_end_time": "",
-            "countdown_end_text": "",
-            "enlarge_end_text": false,
-            "countdown_hide_on_end": false,
-            "use_custom_colors": false,
-            "count_color": "#fff",
-            "bg_color": "#070707",
-            "bg_grad": ""
-          }
         }
       },
       "block_order": [
+        "slide_rRGHcC",
         "slide-1",
         "2b1e300b-a0a7-4a95-aa24-7ab800a9e1ed",
         "ced40511-ca73-41be-819f-8f2b1cecd281",
-        "slide_kMLn3w",
-        "slide_rRGHcC"
+        "slide_kMLn3w"
       ],
       "settings": {
         "height_mode": "fixed",
