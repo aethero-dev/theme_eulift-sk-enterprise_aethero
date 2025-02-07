@@ -44,6 +44,7 @@
         "template--20693546369333__54e3d0a3-1904-4064-a2af-29ae7bf79a4a-text-1",
         "template--20693546369333__54e3d0a3-1904-4064-a2af-29ae7bf79a4a-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image_desktop": "shopify://shop_images/gekkon_sidlo-wide.jpg",
         "url": "",
