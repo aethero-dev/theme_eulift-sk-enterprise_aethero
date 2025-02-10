@@ -15,8 +15,8 @@
         "slide_rRGHcC": {
           "type": "slide",
           "settings": {
-            "image_desktop": "shopify://shop_images/vyprodej_022025_sk.jpg",
-            "image_mobile": "shopify://shop_images/vyprodej_022025_2560px_sk.jpg",
+            "image_desktop": "shopify://shop_images/vyprodej_10022025_sk.jpg",
+            "image_mobile": "shopify://shop_images/vyprodej_10022025_2560px_sk.jpg",
             "overlay_position": "justify-start items-start",
             "overlay_text_align": "text-start",
             "mob_center_text": false,
@@ -39,7 +39,7 @@
             "enlarge_end_text": false,
             "countdown_hide_on_end": false,
             "use_custom_colors": false,
-            "count_color": "#fff",
+            "count_color": "#ffffff",
             "bg_color": "#070707",
             "bg_grad": ""
           }
