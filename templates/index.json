@@ -12,6 +12,38 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "slide_kMLn3w": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify://shop_images/2560x1139.jpg",
+            "image_mobile": "shopify://shop_images/2560x2560.jpg",
+            "overlay_position": "justify-start items-start",
+            "overlay_text_align": "text-start",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "Naše najpredávanejšie produkty za skvelú cenu",
+            "heading_size": "h0",
+            "heading_h1": false,
+            "text": "<p>Vyberte si pomocníka z radu <strong>BLACK EDITION</strong></p><ul><li>paletový vozík <strong>BFBE25</strong></li><li>paletový vozík elektrický <strong>CBD15J-LI-S-BE</strong></li><li>vysokozdvižný vozík<strong> CDD1525J-LI-BE</strong></li></ul>",
+            "enlarge_text": true,
+            "button_1_label": "jdu si vybrať",
+            "button_1_link": "shopify://collections/akcni-nabidka",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "",
+            "button_2_style": "btn btn--primary",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
         "slide_rRGHcC": {
           "type": "slide",
           "settings": {
@@ -139,46 +171,14 @@
             "bg_color": "#070707",
             "bg_grad": ""
           }
-        },
-        "slide_kMLn3w": {
-          "type": "slide",
-          "settings": {
-            "image_desktop": "shopify://shop_images/2560x1139.jpg",
-            "image_mobile": "shopify://shop_images/2560x2560.jpg",
-            "overlay_position": "justify-start items-start",
-            "overlay_text_align": "text-start",
-            "mob_center_text": false,
-            "subheading": "",
-            "heading": "Naše najpredávanejšie produkty za skvelú cenu",
-            "heading_size": "h0",
-            "heading_h1": false,
-            "text": "<p>Vyberte si pomocníka z radu <strong>BLACK EDITION</strong></p><ul><li>paletový vozík <strong>BFBE25</strong></li><li>paletový vozík elektrický <strong>CBD15J-LI-S-BE</strong></li><li>vysokozdvižný vozík<strong> CDD1525J-LI-BE</strong></li></ul>",
-            "enlarge_text": true,
-            "button_1_label": "jdu si vybrať",
-            "button_1_link": "shopify://collections/akcni-nabidka",
-            "button_1_style": "btn btn--primary",
-            "button_2_label": "",
-            "button_2_link": "",
-            "button_2_style": "btn btn--primary",
-            "countdown_show": false,
-            "countdown_end_date": "",
-            "countdown_end_time": "",
-            "countdown_end_text": "",
-            "enlarge_end_text": false,
-            "countdown_hide_on_end": false,
-            "use_custom_colors": false,
-            "count_color": "#ffffff",
-            "bg_color": "#070707",
-            "bg_grad": ""
-          }
         }
       },
       "block_order": [
+        "slide_kMLn3w",
         "slide_rRGHcC",
         "ced40511-ca73-41be-819f-8f2b1cecd281",
         "slide-1",
-        "2b1e300b-a0a7-4a95-aa24-7ab800a9e1ed",
-        "slide_kMLn3w"
+        "2b1e300b-a0a7-4a95-aa24-7ab800a9e1ed"
       ],
       "settings": {
         "height_mode": "fixed",
