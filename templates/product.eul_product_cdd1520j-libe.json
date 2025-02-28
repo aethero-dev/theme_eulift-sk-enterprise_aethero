@@ -250,6 +250,39 @@
       ],
       "settings": {}
     },
+    "b111f40a-658b-414f-971f-08795c67ffa5": {
+      "type": "video",
+      "blocks": {
+        "template--21595480555829__b111f40a-658b-414f-971f-08795c67ffa5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Video o produkte",
+            "heading_size": "h2",
+            "heading_h1": false
+          }
+        },
+        "template--21595480555829__b111f40a-658b-414f-971f-08795c67ffa5-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Vysokozdvižný vozík elektrický CDD 12 a 15J-LI BLACK EDITION lítiový</strong></p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--21595480555829__b111f40a-658b-414f-971f-08795c67ffa5-heading-1",
+        "template--21595480555829__b111f40a-658b-414f-971f-08795c67ffa5-text-1"
+      ],
+      "settings": {
+        "video_external": "https://vimeo.com/1061229322",
+        "video_description": "",
+        "poster_image": "shopify://shop_images/CDD12_A_15J-LI_BE_SK.jpg",
+        "video_size": "md",
+        "video_autoplay": false,
+        "text_align": "text-center",
+        "color_scheme": "1"
+      }
+    },
     "product-features": {
       "type": "product-features",
       "blocks": {
@@ -505,51 +538,17 @@
         "card_size": "small",
         "products_to_show": 8
       }
-    },
-    "b111f40a-658b-414f-971f-08795c67ffa5": {
-      "type": "video",
-      "blocks": {
-        "template--21595480555829__b111f40a-658b-414f-971f-08795c67ffa5-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Video o produktu",
-            "heading_size": "h2",
-            "heading_h1": false
-          }
-        },
-        "template--21595480555829__b111f40a-658b-414f-971f-08795c67ffa5-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<h5>Vysokozdvižný vozík CDD 15J-Li s lítiovou batériou</h5>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "template--21595480555829__b111f40a-658b-414f-971f-08795c67ffa5-heading-1",
-        "template--21595480555829__b111f40a-658b-414f-971f-08795c67ffa5-text-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "video_external": "https://vimeo.com/691976543",
-        "video_description": "",
-        "poster_image": "shopify://shop_images/sidlo-gekkon-opti_133f830b-2d51-44fe-a78c-16d65eebe74a.webp",
-        "video_size": "md",
-        "video_autoplay": true,
-        "text_align": "text-center",
-        "color_scheme": "1"
-      }
     }
   },
   "order": [
     "main",
     "8dc8c37e-8c63-4e4f-8838-dd3dcb77dd8e",
     "details",
+    "b111f40a-658b-414f-971f-08795c67ffa5",
     "product-features",
     "product-comparison-grid",
     "collection-list",
     "image-banner",
-    "recommendations",
-    "b111f40a-658b-414f-971f-08795c67ffa5"
+    "recommendations"
   ]
 }
