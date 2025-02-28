@@ -512,7 +512,7 @@
         "template--21595331494197__5ca29077-7243-4c1a-a9db-e245b39cba47-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Video o produktu",
+            "heading": "Video o produkte",
             "heading_size": "h2",
             "heading_h1": false
           }
@@ -520,7 +520,7 @@
         "template--21595331494197__5ca29077-7243-4c1a-a9db-e245b39cba47-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>vysokozdvižný vozík CDD12J</p>",
+            "text": "<p><strong>Vysokozdvižný vozík elektrický CDD 12 a 15J-LI BLACK EDITION lítiový</strong></p>",
             "enlarge_text": true
           }
         }
@@ -530,11 +530,11 @@
         "template--21595331494197__5ca29077-7243-4c1a-a9db-e245b39cba47-text-1"
       ],
       "settings": {
-        "video_external": "https://vimeo.com/manage/videos/357784820",
+        "video_external": "https://vimeo.com/1061229322",
         "video_description": "",
-        "poster_image": "shopify://shop_images/sidlo-gekkon-opti_133f830b-2d51-44fe-a78c-16d65eebe74a.webp",
+        "poster_image": "shopify://shop_images/CDD12_A_15J-LI_BE_SK.jpg",
         "video_size": "md",
-        "video_autoplay": true,
+        "video_autoplay": false,
         "text_align": "text-center",
         "color_scheme": "1"
       }
