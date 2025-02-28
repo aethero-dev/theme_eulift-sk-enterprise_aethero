@@ -256,7 +256,7 @@
         "template--21595522957621__c7182f3f-0c87-49af-be47-38fbb306367b-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Video o produktu",
+            "heading": "Video o produkte",
             "heading_size": "h2",
             "heading_h1": false
           }
@@ -264,7 +264,7 @@
         "template--21595522957621__c7182f3f-0c87-49af-be47-38fbb306367b-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h5>Vysokozdvižný vozík CDD 15J-Li s lítiovou batériou</h5>",
+            "text": "<p><strong>Vysokozdvižný vozík elektrický CDD 12 a 15J-LI BLACK EDITION lítiový</strong></p>",
             "enlarge_text": true
           }
         }
