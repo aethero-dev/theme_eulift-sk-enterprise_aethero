@@ -74,7 +74,6 @@
             "show_tax_and_shipping": false
           }
         },
-        
         "buy-buttons": {
           "type": "buy-buttons",
           "settings": {
@@ -159,15 +158,13 @@
         "divider-0",
         "97e3fb95-e8e5-4640-b8cf-81f9031aa4c7",
         "price",
-        "74fcb4e7-3982-4233-8412-790c84380ec6",
         "buy-buttons",
         "message-1",
         "message-2",
         "collapsible-content-2",
         "share",
         "message-3",
-        "3e20cfb2-9a29-4ede-a25d-a0b558debdfa",
-        "2eda680c-0225-47ec-9916-0ebb8ab9ca64"
+        "3e20cfb2-9a29-4ede-a25d-a0b558debdfa"
       ],
       "settings": {
         "stick_on_scroll": true,
@@ -233,7 +230,6 @@
             "custom_liquid": "{% if product.metafields.custom.rotation_url != blank %}\n<center><iframe class=\"rotation-desktop\" src=\"{{ product.metafields.custom.rotation_url }}\" frameborder=\"0\" scrolling=\"no\" style=\"width: 544px; height: 408px;\"></iframe></center>\n<center><iframe class=\"rotation-mobile\" src=\"{{ product.metafields.custom.rotation_url_mobile }}\" width=\"320\" frameborder=\"0\" scrolling=\"no\" style=\"width: 320px; height: 420px;\" ></iframe></center>\n{% endif %}"
           }
         },
-        
         "payment-methods": {
           "type": "payment-methods",
           "disabled": true,
@@ -246,15 +242,11 @@
             "text2": ""
           }
         }
-    
       },
       "block_order": [
         "tabs",
         "2dc71c1b-947c-43bf-b36f-1d8291092554",
-        "highlight-text",
-        "payment-methods",
-        "2dc4ffc2-fb7c-4fcc-851e-af90eecbfb0a",
-        "6d0d33e5-69ec-43f4-becf-3605f1e72c47"
+        "payment-methods"
       ],
       "settings": {}
     },
@@ -520,7 +512,7 @@
         "template--21595091140917__c2053f4f-ff45-4f43-a749-47affb274ddd-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Video o produktu",
+            "heading": "Video o produkte",
             "heading_size": "h2",
             "heading_h1": false
           }
@@ -528,7 +520,7 @@
         "template--21595091140917__c2053f4f-ff45-4f43-a749-47affb274ddd-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h5>Vysokozdvižný vozík CDD 12J-Li s lítiovou bateriou</h5>",
+            "text": "<p><strong>Vysokozdvižný vozík elektrický CDD 12 a 15J-LI BLACK EDITION lítiový</strong></p>",
             "enlarge_text": true
           }
         }
@@ -538,11 +530,11 @@
         "template--21595091140917__c2053f4f-ff45-4f43-a749-47affb274ddd-text-1"
       ],
       "settings": {
-        "video_external": "https://vimeo.com/692376104",
+        "video_external": "https://vimeo.com/1061229322",
         "video_description": "",
-        "poster_image": "shopify://shop_images/sidlo-gekkon-opti_133f830b-2d51-44fe-a78c-16d65eebe74a.webp",
+        "poster_image": "shopify://shop_images/CDD12_A_15J-LI_BE_SK.jpg",
         "video_size": "md",
-        "video_autoplay": true,
+        "video_autoplay": false,
         "text_align": "text-center",
         "color_scheme": "1"
       }
