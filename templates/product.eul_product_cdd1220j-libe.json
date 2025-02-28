@@ -250,6 +250,39 @@
       ],
       "settings": {}
     },
+    "202c0971-c0a8-4850-ae2e-10fc6f0512b7": {
+      "type": "video",
+      "blocks": {
+        "template--21580544147765__202c0971-c0a8-4850-ae2e-10fc6f0512b7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Video o produktu",
+            "heading_size": "h2",
+            "heading_h1": false
+          }
+        },
+        "template--21580544147765__202c0971-c0a8-4850-ae2e-10fc6f0512b7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Vysokozdvižný vozík elektrický CDD 12 a 15J-LI BLACK EDITION lítiový </strong></p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--21580544147765__202c0971-c0a8-4850-ae2e-10fc6f0512b7-heading-1",
+        "template--21580544147765__202c0971-c0a8-4850-ae2e-10fc6f0512b7-text-1"
+      ],
+      "settings": {
+        "video_external": "https://vimeo.com/1061229322",
+        "video_description": "",
+        "poster_image": "shopify://shop_images/CDD12_A_15J-LI_BE_SK.jpg",
+        "video_size": "md",
+        "video_autoplay": false,
+        "text_align": "text-center",
+        "color_scheme": "1"
+      }
+    },
     "product-features": {
       "type": "product-features",
       "blocks": {
@@ -504,39 +537,6 @@
         "layout": "carousel",
         "card_size": "small",
         "products_to_show": 8
-      }
-    },
-    "202c0971-c0a8-4850-ae2e-10fc6f0512b7": {
-      "type": "video",
-      "blocks": {
-        "template--21580544147765__202c0971-c0a8-4850-ae2e-10fc6f0512b7-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Video o produktu",
-            "heading_size": "h2",
-            "heading_h1": false
-          }
-        },
-        "template--21580544147765__202c0971-c0a8-4850-ae2e-10fc6f0512b7-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Vysokozdvižný vozík elektrický CDD 12 a 15J-LI BLACK EDITION lítiový </strong></p>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "template--21580544147765__202c0971-c0a8-4850-ae2e-10fc6f0512b7-heading-1",
-        "template--21580544147765__202c0971-c0a8-4850-ae2e-10fc6f0512b7-text-1"
-      ],
-      "settings": {
-        "video_external": "https://vimeo.com/1061229322",
-        "video_description": "",
-        "poster_image": "shopify://shop_images/CDD12_A_15J-LI_BE.jpg",
-        "video_size": "md",
-        "video_autoplay": false,
-        "text_align": "text-center",
-        "color_scheme": "1"
       }
     }
   },
