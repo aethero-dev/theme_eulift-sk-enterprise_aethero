@@ -8,7 +8,7 @@
     product: product,
     variant: product.selected_or_first_available_variant
   %}
-{%- endcomment -%}
+
 
 <div class="backorder"{% unless variant.inventory_management == 'shopify' and variant.inventory_quantity < 1 %} hidden{% endunless %}>
   {%- if template contains 'cart' -%}
@@ -23,3 +23,4 @@
     </p>
   {%- endif -%}
 </div>
+{%- endcomment -%}
