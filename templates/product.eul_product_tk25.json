@@ -307,8 +307,8 @@
         "product-features-feature-0": {
           "type": "feature",
           "settings": {
-            "heading": "Ovládací páčka",
-            "text": "<p>pro ovládání zdvihu a spouštění vidlic</p>",
+            "heading": "Ovládacia páčka",
+            "text": "<p>pre ovládanie zdvihu a spúšťania vidlíc</p>",
             "content_align": "text-start",
             "hotspot_x": 73,
             "hotspot_y": 16
