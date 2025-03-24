@@ -328,7 +328,7 @@
           "type": "feature",
           "settings": {
             "heading": "Riaditeľná kolesa",
-            "text": "<p>výber z dvoch variant materiálu behúňa</p>",
+            "text": "<p>možnosť výberu z dvoch variant materiálu behúňú</p>",
             "content_align": "text-start",
             "hotspot_x": 70,
             "hotspot_y": 90
@@ -337,8 +337,8 @@
         "product-features-feature-3": {
           "type": "feature",
           "settings": {
-            "heading": "Vidlicová kola",
-            "text": "<p>tandemová, pro větší stabilitu při manipulaci</p>",
+            "heading": "Vidlicová kolieska",
+            "text": "<p>tandemová, pre väčšiu stabilitu při manipulaci</p>",
             "content_align": "text-start",
             "hotspot_x": 33,
             "hotspot_y": 83
