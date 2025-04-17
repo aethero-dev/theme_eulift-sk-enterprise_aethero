@@ -267,7 +267,7 @@
           "type": "feature",
           "settings": {
             "heading": "Hydraulika",
-            "text": "<p>osazen kvalitní hydraulikou</p>",
+            "text": "<p>vybavený kvalitnou hydraulikou</p>",
             "content_align": "text-start",
             "hotspot_x": 72,
             "hotspot_y": 73
@@ -276,8 +276,8 @@
         "product-features-feature-2": {
           "type": "feature",
           "settings": {
-            "heading": "Řiditelná kola",
-            "text": "<p>polyuretanový běhoun</p>",
+            "heading": "Riaditeľná kolesa",
+            "text": "<p>polyuretánový behúň</p>",
             "content_align": "text-start",
             "hotspot_x": 70,
             "hotspot_y": 87
@@ -286,8 +286,8 @@
         "product-features-feature-3": {
           "type": "feature",
           "settings": {
-            "heading": "Vidlicová kola - tandem",
-            "text": "<p>celokovová kola pro snadné zajíždění do nízko-profilových palet</p>",
+            "heading": "Vidlicové kolesá - tandem",
+            "text": "<p>celokovové kolieska pre ľahký prístup k nízkoprofilovým paletám</p>",
             "content_align": "text-start",
             "hotspot_x": 30,
             "hotspot_y": 78
