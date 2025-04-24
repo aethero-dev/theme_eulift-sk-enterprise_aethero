@@ -256,8 +256,8 @@
         "product-features-feature-0": {
           "type": "feature",
           "settings": {
-            "heading": "Ovládací páčka",
-            "text": "<p>slouží k ovládání zdvihu a spouštění vidlic</p>",
+            "heading": "Ovládacia páčka",
+            "text": "<p>slúži k ovládaniu zdvihu a spúšťania vidlice</p>",
             "content_align": "text-start",
             "hotspot_x": 73,
             "hotspot_y": 16
@@ -267,7 +267,7 @@
           "type": "feature",
           "settings": {
             "heading": "Hydraulika",
-            "text": "<p>osazen kvalitní hydraulickou jednotkou</p>",
+            "text": "<p>osazená kvalitnou hydraulickou jednotkou</p>",
             "content_align": "text-start",
             "hotspot_x": 69,
             "hotspot_y": 66
@@ -276,7 +276,7 @@
         "product-features-feature-2": {
           "type": "feature",
           "settings": {
-            "heading": "Řídící kola",
+            "heading": "Riadiaca kola",
             "text": "<p>Polyuretánový behúň s oceľovým jadrom</p>",
             "content_align": "text-start",
             "hotspot_x": 70,
@@ -286,8 +286,8 @@
         "product-features-feature-3": {
           "type": "feature",
           "settings": {
-            "heading": "Vidlicové kola - tandem",
-            "text": "<p>pro větší stabilitu při manipulaci</p>",
+            "heading": "Vidlicové kolesá - tandem",
+            "text": "<p>pre väčšiu stabilitu pri manipulácii</p>",
             "content_align": "text-start",
             "hotspot_x": 35,
             "hotspot_y": 79
