@@ -231,7 +231,7 @@
         "pickup_label": "Zdvihnúť",
         "no_pickup_location": "Vaša objednávka nie je k dispozícii na vyzdvihnutie. Zadajte dodaciu adresu.",
         "calculating_shipping": "Prebieha výpočet…",
-        "shipping_default_value": "ZADARMO",
+        "shipping_default_value": "Vypočíta sa v ďalšom kroku",
         "shipping_pending_message": "Zatiaľ nedostupné",
         "shipping_policy_link": "Prepravné náklady",
         "taxes_label": "Dane",
