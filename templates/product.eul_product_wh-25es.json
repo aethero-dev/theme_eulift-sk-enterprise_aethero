@@ -308,7 +308,7 @@
           "type": "feature",
           "settings": {
             "heading": "Váha",
-            "text": "<p>okamžité zvážení  břemene </p>",
+            "text": "<p>okamžité zváženie bremena</p>",
             "content_align": "text-start",
             "hotspot_x": 64,
             "hotspot_y": 40
