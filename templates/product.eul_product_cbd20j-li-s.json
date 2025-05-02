@@ -496,6 +496,7 @@
     },
     "recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "Související zboží",
         "heading_align": "text-start",
@@ -542,11 +543,11 @@
     "main",
     "8dc8c37e-8c63-4e4f-8838-dd3dcb77dd8e",
     "details",
+    "73ae227b-6c6b-4aef-91db-71bb11e5344d",
     "product-features",
     "product-comparison-grid",
     "collection-list",
     "image-banner",
-    "recommendations",
-    "73ae227b-6c6b-4aef-91db-71bb11e5344d"
+    "recommendations"
   ]
 }
