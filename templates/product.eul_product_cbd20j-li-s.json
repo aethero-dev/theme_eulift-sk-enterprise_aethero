@@ -256,40 +256,40 @@
         "product-features-feature-0": {
           "type": "feature",
           "settings": {
-            "heading": "Tlačítko \"odskoku\"",
+            "heading": "Tlačidlo „odskočenie“",
             "text": "<p>bezpečnostní červené tlačítko chrání obsluhu před možným úrazem. Například<br/>přimáčknutí ojí při manipulaci.</p>",
             "content_align": "text-start",
-            "hotspot_x": 73,
-            "hotspot_y": 10
+            "hotspot_x": 74,
+            "hotspot_y": 12
           }
         },
         "product-features-feature-1": {
           "type": "feature",
           "settings": {
-            "heading": "Lithiová baterie",
-            "text": "<p>Vozíky s lithiovou baterií mají minimální servisní a provozní náklady, ačkoliv poskytují maximální komfort manipulace. Minimální náklad, maximální výkon.</p>",
+            "heading": "Lítiová batéria",
+            "text": "<p>Vozíky s lítiovými batériami majú minimálne servisné a prevádzkové náklady, hoci poskytujú maximálny komfort pri manipulácii. Minimálne zaťaženie, maximálny výkon.</p>",
             "content_align": "text-start",
-            "hotspot_x": 65,
-            "hotspot_y": 63
+            "hotspot_x": 60,
+            "hotspot_y": 52
           }
         },
         "product-features-feature-2": {
           "type": "feature",
           "settings": {
-            "heading": "Hydraulika",
-            "text": "<p>osazení kvalitní hydraulickou jednotkou</p>",
+            "heading": "Vyvažovacie kolesá",
+            "text": "<p>pre väčšiu stabilitu počas manipulácie</p>",
             "content_align": "text-start",
-            "hotspot_x": 72,
-            "hotspot_y": 68
+            "hotspot_x": 73,
+            "hotspot_y": 87
           }
         },
         "product-features-feature-3": {
           "type": "feature",
           "settings": {
-            "heading": "Tandemové kola pod vidlicí",
-            "text": "<p>pro větší stabilitu při manipulaci</p>",
+            "heading": "Tandemové kolesá pod vidlicou",
+            "text": "<p>pre bezpečnejšiu manipuláciu  </p>",
             "content_align": "text-start",
-            "hotspot_x": 33,
+            "hotspot_x": 30,
             "hotspot_y": 83
           }
         }
@@ -304,13 +304,14 @@
         "img {max-width: 50%;}"
       ],
       "settings": {
-        "product": "paletovy-vozik-cbd15j-li-s",
+        "product": "paletovy-vozik-cbd20j-li-s",
         "show_content": true,
         "layout": "text_first",
         "text_align": "text-center",
         "mob_center_text": false,
         "heading_size": "h1",
         "enlarge_text": false,
+        "image": "shopify://shop_images/paletovy_vozik_elektricky-HELI_CBD20J-LI-S_14.jpg",
         "title": "{{ section.settings.product.title }}",
         "description": "<p>Podívejte se na výhody tohoto produktu:</p>",
         "button_label": "",
