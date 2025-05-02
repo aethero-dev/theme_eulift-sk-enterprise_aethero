@@ -158,7 +158,6 @@
         "divider-0",
         "97e3fb95-e8e5-4640-b8cf-81f9031aa4c7",
         "price",
-        "74fcb4e7-3982-4233-8412-790c84380ec6",
         "buy-buttons",
         "message-1",
         "message-2",
@@ -187,16 +186,6 @@
         "bg_color": "#f4f4f4",
         "enable_media_grouping": false,
         "media_grouping_option": "Color,Colour,Couleur,Farbe"
-      }
-    },
-    "f581de30-ad9f-4e74-91e8-7587354cc3c6": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% render 'aethero-product-page-description-section'%}",
-        "section_height": "default",
-        "full_width": false,
-        "dividers": "none",
-        "prevent_animation": false
       }
     },
     "15866fc9-4ab1-4cd7-9b63-4454e32b632e": {
@@ -248,6 +237,16 @@
         "full_width": true,
         "tint_color": "#000000",
         "tint_opacity": 20
+      }
+    },
+    "f581de30-ad9f-4e74-91e8-7587354cc3c6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'aethero-product-page-description-section'%}",
+        "section_height": "default",
+        "full_width": false,
+        "dividers": "none",
+        "prevent_animation": false
       }
     },
     "details": {
@@ -581,6 +580,7 @@
         "template--20693546631477__0f077b90-d0f4-4274-92df-b5a537d744b5-heading-1",
         "template--20693546631477__0f077b90-d0f4-4274-92df-b5a537d744b5-text-1"
       ],
+      "disabled": true,
       "settings": {
         "video_external": "https://vimeo.com/692376104",
         "video_description": "",
