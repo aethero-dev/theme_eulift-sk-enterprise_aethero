@@ -74,7 +74,6 @@
             "show_tax_and_shipping": false
           }
         },
-        
         "buy-buttons": {
           "type": "buy-buttons",
           "settings": {
@@ -159,15 +158,13 @@
         "divider-0",
         "97e3fb95-e8e5-4640-b8cf-81f9031aa4c7",
         "price",
-        "74fcb4e7-3982-4233-8412-790c84380ec6",
         "buy-buttons",
         "message-1",
         "message-2",
         "collapsible-content-2",
         "share",
         "message-3",
-        "3e20cfb2-9a29-4ede-a25d-a0b558debdfa",
-        "2eda680c-0225-47ec-9916-0ebb8ab9ca64"
+        "3e20cfb2-9a29-4ede-a25d-a0b558debdfa"
       ],
       "settings": {
         "stick_on_scroll": true,
@@ -284,7 +281,6 @@
             "custom_liquid": "{% if product.metafields.custom.rotation_url != blank %}\n<center><iframe class=\"rotation-desktop\" src=\"{{ product.metafields.custom.rotation_url }}\" frameborder=\"0\" scrolling=\"no\" style=\"width: 544px; height: 408px;\"></iframe></center>\n<center><iframe class=\"rotation-mobile\" src=\"{{ product.metafields.custom.rotation_url_mobile }}\" width=\"320\" frameborder=\"0\" scrolling=\"no\" style=\"width: 320px; height: 420px;\" ></iframe></center>\n{% endif %}"
           }
         },
-        
         "payment-methods": {
           "type": "payment-methods",
           "disabled": true,
@@ -297,15 +293,11 @@
             "text2": ""
           }
         }
-    
       },
       "block_order": [
         "tabs",
         "2dc71c1b-947c-43bf-b36f-1d8291092554",
-        "highlight-text",
-        "payment-methods",
-        "2dc4ffc2-fb7c-4fcc-851e-af90eecbfb0a",
-        "6d0d33e5-69ec-43f4-becf-3605f1e72c47"
+        "payment-methods"
       ],
       "settings": {}
     },
@@ -315,8 +307,8 @@
         "product-features-feature-0": {
           "type": "feature",
           "settings": {
-            "heading": "Ovládací páčka",
-            "text": "<p>ovládá plynulé spouštění vidlic</p>",
+            "heading": "Ovládacia páčka",
+            "text": "<p>ovláda zdvíhanie a spúšťanie vidlíc</p>",
             "content_align": "text-start",
             "hotspot_x": 69,
             "hotspot_y": 35
@@ -326,7 +318,7 @@
           "type": "feature",
           "settings": {
             "heading": "Elektrický zdvih",
-            "text": "<p>napájen baterií o kapacitě 12 Voltů a napětí 55 Ah</p>",
+            "text": "<p>napájanie 12 V batériou s kapacitou 55 Ah</p>",
             "content_align": "text-start",
             "hotspot_x": 60,
             "hotspot_y": 70
@@ -335,8 +327,8 @@
         "product-features-feature-2": {
           "type": "feature",
           "settings": {
-            "heading": "Nůžkový zdvih",
-            "text": "<p>nůžkové podpěry zaručí dobrou stabilitu vozíku při naložení</p>",
+            "heading": "Nožnicový zdvih",
+            "text": "<p>nožnicové podpery zaručujú dobrú stabilitu vozíka pri nakladaní</p>",
             "content_align": "text-start",
             "hotspot_x": 50,
             "hotspot_y": 68
@@ -345,8 +337,8 @@
         "product-features-feature-3": {
           "type": "feature",
           "settings": {
-            "heading": "Vidlicová kolečka",
-            "text": "<p>single s polyuretanovým běhounem</p>",
+            "heading": "Vidlicové kolieska",
+            "text": "<p>singel s polyuretánovým behúňom</p>",
             "content_align": "text-start",
             "hotspot_x": 35,
             "hotspot_y": 90
