@@ -161,11 +161,7 @@ document.addEventListener('DOMContentLoaded', function() {
               {
                 width: '50%',
                 text: [
-                  { text: 'Odberateľ:\n\n\n\n\n\n\n\n\n', style: 'label' },
-                  { text: 'IČO:\n', style: 'label' },
-                  { text: 'DIČ:\n', style: 'label' },
-                  { text: 'Telefon:\n', style: 'label' },
-                  { text: 'E-mail:\n', style: 'label' }
+                  { text: '', style: 'label' }
                 ]
               },
               {
