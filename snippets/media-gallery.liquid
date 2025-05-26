@@ -259,15 +259,6 @@
             </li>
           {%- endfor -%}
         </ul>
-        
-        {%- if media_count > 1 -%}
-          <div class="media-gallery__slider mt-2 relative">
-            <div class="media-gallery__slider-track h-1 bg-scheme-text/10 rounded-full overflow-hidden">
-              <div class="media-gallery__slider-progress h-full bg-scheme-text rounded-full" style="width: 0%"></div>
-            </div>
-            <div class="media-gallery__slider-thumb absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-scheme-text rounded-full cursor-grab active:cursor-grabbing" style="left: 0%"></div>
-          </div>
-        {%- endif -%}
       </div>
     {%- endunless -%}
   {%- endif -%}

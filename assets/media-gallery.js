@@ -8,23 +8,6 @@ if (!customElements.get('media-gallery')) {
       } else {
         this.init();
       }
-
-      this.viewer = this.querySelector('#gallery-viewer');
-      this.thumbs = this.querySelector('.media-thumbs');
-      this.slider = this.querySelector('.media-gallery__slider');
-      this.sliderThumb = this.querySelector('.media-gallery__slider-thumb');
-      this.sliderProgress = this.querySelector('.media-gallery__slider-progress');
-      this.currentIndex = 0;
-      this.isDragging = false;
-      this.startX = 0;
-      this.currentTranslate = 0;
-      this.prevTranslate = 0;
-      this.animationID = 0;
-      this.mediaCount = this.querySelectorAll('.media-viewer__item').length;
-
-      if (this.slider) {
-        this.setupSlider();
-      }
     }
 
     disconnectedCallback() {
@@ -46,6 +29,8 @@ if (!customElements.get('media-gallery')) {
       this.stackedScroll = this.dataset.stackedScroll;
       this.stackedUnderline = this.dataset.stackedUnderline === 'true' && !this.mediaGroupingEnabled;
       this.isFeatured = this.dataset.isFeatured === 'true';
+      this.viewer = this.querySelector('.media-viewer');
+      this.thumbs = this.querySelector('.media-thumbs');
       this.thumbsItems = this.querySelectorAll('.media-thumbs__item');
       this.controls = this.querySelector('.media-ctrl');
       this.prevBtn = this.querySelector('.media-ctrl__btn[name="prev"]');
@@ -517,78 +502,6 @@ if (!customElements.get('media-gallery')) {
       window.pauseAllMedia();
       const deferredMedia = mediaItem.querySelector('deferred-media');
       if (deferredMedia) deferredMedia.loadContent();
-    }
-
-    setupSlider() {
-      this.slider.addEventListener('mousedown', this.sliderStart.bind(this));
-      this.slider.addEventListener('touchstart', this.sliderStart.bind(this));
-      window.addEventListener('mouseup', this.sliderEnd.bind(this));
-      window.addEventListener('touchend', this.sliderEnd.bind(this));
-      window.addEventListener('mousemove', this.sliderMove.bind(this));
-      window.addEventListener('touchmove', this.sliderMove.bind(this));
-    }
-
-    sliderStart(e) {
-      this.isDragging = true;
-      this.startX = e.type === 'mousedown' ? e.pageX : e.touches[0].clientX;
-      this.prevTranslate = this.currentTranslate;
-      this.slider.style.cursor = 'grabbing';
-      this.sliderThumb.style.cursor = 'grabbing';
-    }
-
-    sliderMove(e) {
-      if (!this.isDragging) return;
-      e.preventDefault();
-      
-      const currentX = e.type === 'mousemove' ? e.pageX : e.touches[0].clientX;
-      const diff = currentX - this.startX;
-      const sliderWidth = this.slider.offsetWidth;
-      const thumbWidth = this.sliderThumb.offsetWidth;
-      
-      let newTranslate = this.prevTranslate + diff;
-      newTranslate = Math.max(0, Math.min(newTranslate, sliderWidth - thumbWidth));
-      
-      const progress = (newTranslate / (sliderWidth - thumbWidth)) * 100;
-      this.updateSliderPosition(progress);
-      
-      const newIndex = Math.round((progress / 100) * (this.mediaCount - 1));
-      if (newIndex !== this.currentIndex) {
-        this.currentIndex = newIndex;
-        this.updateGalleryPosition();
-      }
-    }
-
-    sliderEnd() {
-      this.isDragging = false;
-      this.slider.style.cursor = 'grab';
-      this.sliderThumb.style.cursor = 'grab';
-    }
-
-    updateSliderPosition(progress) {
-      this.sliderThumb.style.left = `${progress}%`;
-      this.sliderProgress.style.width = `${progress}%`;
-    }
-
-    updateGalleryPosition() {
-      const items = this.querySelectorAll('.media-viewer__item');
-      items.forEach((item, index) => {
-        if (index === this.currentIndex) {
-          item.classList.add('is-current-variant');
-        } else {
-          item.classList.remove('is-current-variant');
-        }
-      });
-      
-      const thumbItems = this.querySelectorAll('.media-thumbs__btn');
-      thumbItems.forEach((item, index) => {
-        if (index === this.currentIndex) {
-          item.classList.add('is-active');
-          item.setAttribute('aria-current', 'true');
-        } else {
-          item.classList.remove('is-active');
-          item.removeAttribute('aria-current');
-        }
-      });
     }
   }
 
