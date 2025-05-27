@@ -7,6 +7,8 @@ var button_close = "<button id='zeman-button-close' class='btn btn--primary'styl
 
 function insertImage() {
   $(".shopify-section-group-footer-group").after(zeman);
+  var footer = getElementbyId(shopify-section-sections--23850517463419__footer);
+  console.log(footer);
   $("#shopify-section-sections--23850517463419__footer").after(button);
   $("#shopify-section-sections--23850517463419__footer").after(button_close);
 }
