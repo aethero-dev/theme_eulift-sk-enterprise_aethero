@@ -256,8 +256,8 @@
         "product-features-feature-0": {
           "type": "feature",
           "settings": {
-            "heading": "Tlačítko \"odskoku\"",
-            "text": "<p>bezpečnostní červené tlačítko chrání obsluhu před možným úrazem. Například<br/>přimáčknutí ojí při manipulaci.</p>",
+            "heading": "Tlačidlo \"odskoku\"",
+            "text": "<p>bezpečnostné červené tlačidlo chráni obsluhu pred možným úrazom. Napríklad pritlačenie oja pri manipulácii.</p>",
             "content_align": "text-start",
             "hotspot_x": 75,
             "hotspot_y": 10
@@ -267,7 +267,7 @@
           "type": "feature",
           "settings": {
             "heading": "Lítiová batéria",
-            "text": "<p>Vozíky s lithiovou baterií mají minimální servisní a provozní náklady, ačkoliv poskytují maximální komfort manipulace. Minimální náklad, maximální výkon.</p>",
+            "text": "<p>Vozíky s lítiovou batériou majú minimálne servisné a prevádzkové náklady, hoci poskytujú maximálny komfort manipulácie. </p>",
             "content_align": "text-start",
             "hotspot_x": 58,
             "hotspot_y": 63
@@ -286,8 +286,8 @@
         "product-features-feature-3": {
           "type": "feature",
           "settings": {
-            "heading": "Tandemové kola pod vidlicí",
-            "text": "<p>pro větší stabilitu při manipulaci</p>",
+            "heading": "Tandemové kolesá pod vidlicou",
+            "text": "<p>pre väčšiu stabilitu pri manipulácii</p>",
             "content_align": "text-start",
             "hotspot_x": 33,
             "hotspot_y": 82
