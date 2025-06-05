@@ -257,7 +257,7 @@
           "type": "feature",
           "settings": {
             "heading": "Tlačidlo \"korytnačka\"",
-            "text": "<p>slouží ke zpomalení jízdy vozíku pro bezpečnou manipulaci</p>",
+            "text": "<p>slúži na spomalenie jazdy vozíka pre bezpečnú manipuláciu</p>",
             "content_align": "text-start",
             "hotspot_x": 75,
             "hotspot_y": 16
