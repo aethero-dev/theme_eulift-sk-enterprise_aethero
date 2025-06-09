@@ -266,8 +266,8 @@
         "product-features-feature-1": {
           "type": "feature",
           "settings": {
-            "heading": "Trakčné batérie",
-            "text": "<p>kvalitnou batériou s kapacitou 24 V/ 210 Ah<br/><br/></p>",
+            "heading": "Trakčná batérie",
+            "text": "<p>kvalitná batérie s kapacitou 24 V/ 210 Ah<br/><br/></p>",
             "content_align": "text-start",
             "hotspot_x": 50,
             "hotspot_y": 50
