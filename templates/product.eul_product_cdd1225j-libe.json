@@ -250,6 +250,39 @@
       ],
       "settings": {}
     },
+    "video_DxFG3G": {
+      "type": "video",
+      "blocks": {
+        "heading_i7MVaW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Video o produkte",
+            "heading_size": "h1",
+            "heading_h1": false
+          }
+        },
+        "text_whCXcf": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Vysokozdvižný vozík elektrický CDD 12 a 15J-LI BLACK EDITION lítiový</strong></p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_i7MVaW",
+        "text_whCXcf"
+      ],
+      "settings": {
+        "video_external": "https://vimeo.com/1061229322",
+        "video_description": "",
+        "poster_image": "shopify://shop_images/CDD12_A_15J-LI_BE_SK.jpg",
+        "video_size": "md",
+        "video_autoplay": false,
+        "text_align": "text-center",
+        "color_scheme": "1"
+      }
+    },
     "product-features": {
       "type": "product-features",
       "blocks": {
@@ -498,44 +531,11 @@
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "Související zboží",
+        "heading": "Súvisiaci tovar",
         "heading_align": "text-start",
         "layout": "carousel",
         "card_size": "small",
         "products_to_show": 8
-      }
-    },
-    "video_DxFG3G": {
-      "type": "video",
-      "blocks": {
-        "heading_i7MVaW": {
-          "type": "heading",
-          "settings": {
-            "heading": "Video o produkte",
-            "heading_size": "h1",
-            "heading_h1": false
-          }
-        },
-        "text_whCXcf": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Vysokozdvižný vozík elektrický CDD 12 a 15J-LI BLACK EDITION lítiový</strong></p>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_i7MVaW",
-        "text_whCXcf"
-      ],
-      "settings": {
-        "video_external": "https://vimeo.com/1061229322",
-        "video_description": "",
-        "poster_image": "shopify://shop_images/CDD12_A_15J-LI_BE_SK.jpg",
-        "video_size": "md",
-        "video_autoplay": false,
-        "text_align": "text-center",
-        "color_scheme": "1"
       }
     }
   },
