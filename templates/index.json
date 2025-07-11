@@ -227,6 +227,12 @@
             "image": "shopify://shop_images/01-paletove-voziky-01_standard_DF20_png.webp"
           }
         },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "vysokozdvizne-voziky"
+          }
+        },
         "collection-1": {
           "type": "collection",
           "settings": {
@@ -244,12 +250,6 @@
           "settings": {
             "collection": "paletove-voziky-snizene"
           }
-        },
-        "collection-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "vysokozdvizne-voziky"
-          }
         }
       },
       "block_order": [
@@ -257,10 +257,10 @@
         "collection_wijENT",
         "collection-5",
         "collection-0",
+        "collection-4",
         "collection-1",
         "collection-2",
-        "collection-3",
-        "collection-4"
+        "collection-3"
       ],
       "settings": {
         "title": "",
