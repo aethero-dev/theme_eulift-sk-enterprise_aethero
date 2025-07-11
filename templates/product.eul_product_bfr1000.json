@@ -256,8 +256,8 @@
         "product-features-feature-0": {
           "type": "feature",
           "settings": {
-            "heading": "Ovládací páčka",
-            "text": "<p>ovládá zdvih a plynulé spouštění vidlic</p>",
+            "heading": "Ovládacia páčka",
+            "text": "<p>ovláda zdvih a plynulé spúšťanie vidlíc</p>",
             "content_align": "text-start",
             "hotspot_x": 75,
             "hotspot_y": 20
@@ -267,7 +267,7 @@
           "type": "feature",
           "settings": {
             "heading": "Hydraulika",
-            "text": "<p>osazení kvalitní hydraulickou jednotkou</p>",
+            "text": "<p>osadenie kvalitnou hydraulickou jednotkou</p>",
             "content_align": "text-start",
             "hotspot_x": 73,
             "hotspot_y": 70
@@ -276,8 +276,8 @@
         "product-features-feature-2": {
           "type": "feature",
           "settings": {
-            "heading": "Řiditelná kola",
-            "text": "<p>s polyuretanovým běhounem</p>",
+            "heading": "Riaditeľné kolesá",
+            "text": "<p>s polyuretánovým behúňom</p>",
             "content_align": "text-start",
             "hotspot_x": 72,
             "hotspot_y": 87
@@ -286,8 +286,8 @@
         "product-features-feature-3": {
           "type": "feature",
           "settings": {
-            "heading": "Tandemové kola pod vidlicí",
-            "text": "<p>pro větší stabilitu při manipulaci</p>",
+            "heading": "Tandemové kolesá pod vidlicou",
+            "text": "<p>pre väčšiu stabilitu pri manipulácii</p>",
             "content_align": "text-start",
             "hotspot_x": 30,
             "hotspot_y": 86
