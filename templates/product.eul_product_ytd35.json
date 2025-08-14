@@ -286,8 +286,8 @@
         "product-features-feature-3": {
           "type": "feature",
           "settings": {
-            "heading": "Aretační brzda",
-            "text": "<p>pro snadné zabrzdění vozíku</p>",
+            "heading": "Aretačná brzda",
+            "text": "<p>pre ľahké zabrzdenie vozíka</p>",
             "content_align": "text-start",
             "hotspot_x": 28,
             "hotspot_y": 80
