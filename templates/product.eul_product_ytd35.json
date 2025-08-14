@@ -257,7 +257,7 @@
           "type": "feature",
           "settings": {
             "heading": "Zdvih duplex",
-            "text": "<p>nízká konstrukční výška vozíku 1270 mm</p>",
+            "text": "<p>nízka konštrukčná výška vozíka 1270 mm</p>",
             "content_align": "text-start",
             "hotspot_x": 34,
             "hotspot_y": 19
@@ -266,8 +266,8 @@
         "product-features-feature-1": {
           "type": "feature",
           "settings": {
-            "heading": "Ovládací kolo",
-            "text": "<p>ovládá otáčení sudu až na 180°</p>",
+            "heading": "Ovládacie koleso",
+            "text": "<p>ovláda otáčanie suda až na 180 °</p>",
             "content_align": "text-start",
             "hotspot_x": 52,
             "hotspot_y": 31
@@ -276,8 +276,8 @@
         "product-features-feature-2": {
           "type": "feature",
           "settings": {
-            "heading": "Nožní páka",
-            "text": "<p>slouží ke zdvihání upínače sudů - alternativa zdvihu pumpování ojí</p>",
+            "heading": "Nožná páka",
+            "text": "<p>slúži na zdvíhanie upínača sudov - alternatíva zdvihu pumpovania oja</p>",
             "content_align": "text-start",
             "hotspot_x": 32,
             "hotspot_y": 70
