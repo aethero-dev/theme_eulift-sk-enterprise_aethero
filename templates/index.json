@@ -46,6 +46,7 @@
         },
         "slide_rRGHcC": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image_desktop": "shopify://shop_images/vyprodej_10022025_sk.jpg",
             "image_mobile": "shopify://shop_images/vyprodej_10022025_2560px_sk.jpg",
