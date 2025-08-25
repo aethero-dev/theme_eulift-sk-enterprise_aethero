@@ -256,8 +256,8 @@
         "product-features-feature-0": {
           "type": "feature",
           "settings": {
-            "heading": "Konstrukční výška",
-            "text": "<p>dle výšky zdvihu od 1580 mm až 2080 mm</p>",
+            "heading": "Konštrukčná výška",
+            "text": "<p>podľa výšky zdvihu od 1580 mm až 2080 mm</p>",
             "content_align": "text-start",
             "hotspot_x": 49,
             "hotspot_y": 10
@@ -267,7 +267,7 @@
           "type": "feature",
           "settings": {
             "heading": "Páka",
-            "text": "<p>pro ovládání zdvihu</p>",
+            "text": "<p>pre ovládanie zdvihu</p>",
             "content_align": "text-start",
             "hotspot_x": 60,
             "hotspot_y": 33
@@ -276,8 +276,8 @@
         "product-features-feature-2": {
           "type": "feature",
           "settings": {
-            "heading": "Pohon vozíku",
-            "text": "<p>vozík poháněný baterií o kapacitě 12 V/ 120Ah</p>",
+            "heading": "Pohon vozíka",
+            "text": "<p>vozík poháňaný batériou o kapacite 12 V/ 120Ah</p>",
             "content_align": "text-start",
             "hotspot_x": 60,
             "hotspot_y": 70
@@ -286,8 +286,8 @@
         "product-features-feature-3": {
           "type": "feature",
           "settings": {
-            "heading": "Vestavěný nabíjecí automat",
-            "text": "<p>pro nabití vozíku stačí zastrčit konektor do zásuvky</p>",
+            "heading": "Vstavaný nabíjací automat",
+            "text": "<p>pre nabitie vozíka stačí zastrčiť konektor do zásuvky</p>",
             "content_align": "text-start",
             "hotspot_x": 54,
             "hotspot_y": 48
