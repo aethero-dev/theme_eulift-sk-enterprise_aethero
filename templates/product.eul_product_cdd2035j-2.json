@@ -313,7 +313,7 @@
         "enlarge_text": false,
         "image": "shopify://shop_images/vysokozdvizny_vozik_elektricky_standard_CDD2035J_01_0ec07a96-20c7-47fd-b7b1-2a1cf7068b68.jpg",
         "title": "{{ section.settings.product.title }}",
-        "description": "<p>Podívejte se na výhody tohoto produktu:</p>",
+        "description": "<p>Pozrite sa na výhody tohto produktu:</p>",
         "button_label": "",
         "button_link": "",
         "hotspot_color": "#e42b2c",
@@ -356,7 +356,7 @@
       ],
       "settings": {
         "heading": "Podobné produkty",
-        "text": "<p>Pokud hledáte produkt s podobným zaměřeným, vlastnostmi či výkonem</p>",
+        "text": "<p>Ak hľadáte produkt s podobným zameraným, vlastnosťami či výkonom</p>",
         "heading_align": "text-center",
         "view_more_label": "View more",
         "view_more_link": "",
@@ -497,7 +497,7 @@
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "Související zboží",
+        "heading": "Súvisiaci tovar",
         "heading_align": "text-start",
         "layout": "carousel",
         "card_size": "small",
@@ -510,7 +510,7 @@
         "template--21519870918965__e62d37c7-75a1-4085-8b0c-9a62fafaeb0c-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Video o produktu",
+            "heading": "Video o produkte",
             "heading_size": "h2",
             "heading_h1": false
           }
@@ -518,7 +518,7 @@
         "template--21519870918965__e62d37c7-75a1-4085-8b0c-9a62fafaeb0c-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h5>Vysokozdvižný elektrický vozík HELI CDD12 řady J</h5>",
+            "text": "<h5>Vysokozdvižný elektrický vozík HELI CDD12 radu J</h5>",
             "enlarge_text": true
           }
         }
