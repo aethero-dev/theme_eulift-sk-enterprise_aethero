@@ -259,14 +259,14 @@
             "heading": "Výška zdvihu",
             "text": "<p>2500 mm</p>",
             "content_align": "text-start",
-            "hotspot_x": 50,
+            "hotspot_x": 45,
             "hotspot_y": 10
           }
         },
         "product-features-feature-1": {
           "type": "feature",
           "settings": {
-            "heading": "Tlačítko \"odskoku\"",
+            "heading": "Tlačidlo \"odskoku\"",
             "text": "<p>bezpečnostné červené tlačidlo chráni obsluhu pred možným úrazom. Napríklad pritlačenie ojom pri manipulácii.</p>",
             "content_align": "text-start",
             "hotspot_x": 65,
@@ -276,8 +276,8 @@
         "product-features-feature-2": {
           "type": "feature",
           "settings": {
-            "heading": "Pohon vozíku - lithiová baterie",
-            "text": "<p>vozík pohání baterie o kapacitě 25.6/150 V/Ah</p>",
+            "heading": "Pohon vozíka - lítiová batéria",
+            "text": "<p>vozík poháňa batérie s kapacitou 25.6 V/150 Ah</p>",
             "content_align": "text-start",
             "hotspot_x": 54,
             "hotspot_y": 70
@@ -287,7 +287,7 @@
           "type": "feature",
           "settings": {
             "heading": "Nosné vidlice",
-            "text": "<p>o délce 1150 mm na běžné EURO palety.</p>",
+            "text": "<p>s dĺžkou 1150 mm na bežné EURO palety.</p>",
             "content_align": "text-start",
             "hotspot_x": 34,
             "hotspot_y": 80
@@ -312,7 +312,7 @@
         "heading_size": "h1",
         "enlarge_text": false,
         "title": "{{ section.settings.product.title }}",
-        "description": "<p>Podívejte se na výhody tohoto produktu:</p>",
+        "description": "<p>Pozrite sa na výhody tohto produktu:</p>",
         "button_label": "",
         "button_link": "",
         "hotspot_color": "#e42b2c",
