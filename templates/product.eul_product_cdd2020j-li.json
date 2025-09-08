@@ -267,7 +267,7 @@
           "type": "feature",
           "settings": {
             "heading": "Tlačidlo \"odskoku\"",
-            "text": "<p>bezpečnostné červené tlačidlo chráni obsluhu pred možným úrazom. Napríklad pritlačenie oja pri manipulácii.</p>",
+            "text": "<p>bezpečnostné červené tlačidlo chráni obsluhu pred možným úrazom. Napríklad pritlačenie ojom pri manipulácii.</p>",
             "content_align": "text-start",
             "hotspot_x": 65,
             "hotspot_y": 30
