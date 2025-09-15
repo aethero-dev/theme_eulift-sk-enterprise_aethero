@@ -74,7 +74,6 @@
             "show_tax_and_shipping": false
           }
         },
-        
         "buy-buttons": {
           "type": "buy-buttons",
           "settings": {
@@ -159,15 +158,13 @@
         "divider-0",
         "97e3fb95-e8e5-4640-b8cf-81f9031aa4c7",
         "price",
-        "74fcb4e7-3982-4233-8412-790c84380ec6",
         "buy-buttons",
         "message-1",
         "message-2",
         "collapsible-content-2",
         "share",
         "message-3",
-        "3e20cfb2-9a29-4ede-a25d-a0b558debdfa",
-        "2eda680c-0225-47ec-9916-0ebb8ab9ca64"
+        "3e20cfb2-9a29-4ede-a25d-a0b558debdfa"
       ],
       "settings": {
         "stick_on_scroll": true,
@@ -233,7 +230,6 @@
             "custom_liquid": "{% if product.metafields.custom.rotation_url != blank %}\n<center><iframe class=\"rotation-desktop\" src=\"{{ product.metafields.custom.rotation_url }}\" frameborder=\"0\" scrolling=\"no\" style=\"width: 544px; height: 408px;\"></iframe></center>\n<center><iframe class=\"rotation-mobile\" src=\"{{ product.metafields.custom.rotation_url_mobile }}\" width=\"320\" frameborder=\"0\" scrolling=\"no\" style=\"width: 320px; height: 420px;\" ></iframe></center>\n{% endif %}"
           }
         },
-        
         "payment-methods": {
           "type": "payment-methods",
           "disabled": true,
@@ -246,15 +242,11 @@
             "text2": ""
           }
         }
-    
       },
       "block_order": [
         "tabs",
         "2dc71c1b-947c-43bf-b36f-1d8291092554",
-        "highlight-text",
-        "payment-methods",
-        "2dc4ffc2-fb7c-4fcc-851e-af90eecbfb0a",
-        "6d0d33e5-69ec-43f4-becf-3605f1e72c47"
+        "payment-methods"
       ],
       "settings": {}
     },
@@ -312,7 +304,7 @@
         "img {max-width: 50%;}"
       ],
       "settings": {
-        "product": "vysokozdvizny-vozik-cdd1225el-li",
+        "product": "vysokozdvizny-vozik-cdd1525r",
         "show_content": true,
         "layout": "text_first",
         "text_align": "text-center",
