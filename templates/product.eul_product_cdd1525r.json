@@ -269,8 +269,8 @@
             "heading": "Tlačítko \"odskoku\"",
             "text": "<p>bezpečnostní červené tlačítko chrání obsluhu před možným úrazem. Například<br/>přimáčknutí ojí při manipulaci.</p>",
             "content_align": "text-start",
-            "hotspot_x": 68,
-            "hotspot_y": 30
+            "hotspot_x": 70,
+            "hotspot_y": 44
           }
         },
         "product-features-feature-2": {
@@ -311,7 +311,7 @@
         "mob_center_text": false,
         "heading_size": "h1",
         "enlarge_text": false,
-        "image": "shopify://shop_images/vysokozdvizny_vozik_elektricky_standard_eulift_CDD1225EL-LI_01.jpg",
+        "image": "shopify://shop_images/cdd1525r_001_cr_026a4cd3-bb5d-4766-897c-e1fed7874121.jpg",
         "title": "{{ section.settings.product.title }}",
         "description": "<p>Podívejte se na výhody tohoto produktu:</p>",
         "button_label": "",
