@@ -313,7 +313,7 @@
         "enlarge_text": false,
         "image": "shopify://shop_images/rudl_035A_black_edition_01.jpg",
         "title": "{{ section.settings.product.title }}",
-        "description": "<p>Podívejte se na výhody tohoto produktu:</p>",
+        "description": "<p>Pozrite sa na výhody tohto produktu:</p>",
         "button_label": "",
         "button_link": "",
         "hotspot_color": "#e42b2c",
