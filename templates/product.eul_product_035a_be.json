@@ -256,8 +256,8 @@
         "product-features-feature-0": {
           "type": "feature",
           "settings": {
-            "heading": "Přepravní opěra",
-            "text": "<p>pro komfortní přepravu sudů</p>",
+            "heading": "Prepravná opora",
+            "text": "<p>pre komfortnú prepravu</p>",
             "content_align": "text-start",
             "hotspot_x": 53,
             "hotspot_y": 10
@@ -266,8 +266,8 @@
         "product-features-feature-1": {
           "type": "feature",
           "settings": {
-            "heading": "Ocelové trubky",
-            "text": "<p>25 x 1,5 mm</p>",
+            "heading": "Oceľové rúrky",
+            "text": "<p>25 x 2 mm</p>",
             "content_align": "text-start",
             "hotspot_x": 45,
             "hotspot_y": 64
@@ -286,10 +286,10 @@
         "product-features-feature-3": {
           "type": "feature",
           "settings": {
-            "heading": "Bantamové kolo",
+            "heading": "Bantamové koleso",
             "text": "<p>s jehličkovými ložisky</p>",
             "content_align": "text-start",
-            "hotspot_x": 60,
+            "hotspot_x": 63,
             "hotspot_y": 86
           }
         }
@@ -304,14 +304,14 @@
         "img {max-width: 50%;}"
       ],
       "settings": {
-        "product": "rudl-035a",
+        "product": "rudl-035a-black-edition",
         "show_content": true,
         "layout": "text_first",
         "text_align": "text-center",
         "mob_center_text": false,
         "heading_size": "h1",
         "enlarge_text": false,
-        "image": "shopify://shop_images/035a_01_cr_01_1edf25ef-fc64-4bb5-8471-22844c8436f2.jpg",
+        "image": "shopify://shop_images/rudl_035A_black_edition_01.jpg",
         "title": "{{ section.settings.product.title }}",
         "description": "<p>Podívejte se na výhody tohoto produktu:</p>",
         "button_label": "",
@@ -356,7 +356,7 @@
       ],
       "settings": {
         "heading": "Podobné produkty",
-        "text": "<p>Pokud hledáte produkt s podobným zaměřeným, vlastnostmi či výkonem</p>",
+        "text": "<p>Ak hľadáte produkt s podobným zameraným, vlastnosťami či výkonom</p>",
         "heading_align": "text-center",
         "view_more_label": "View more",
         "view_more_link": "",
