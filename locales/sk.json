@@ -3674,7 +3674,7 @@
       "continue_shopping": "Pokračovať v nákupe"
     },
     "terms": {
-      "agreement_html": "Súhlasím s <a href=\"{{ terms_url }}\" target=\"_blank\">podmienkami a politikou vrátenia peňazí</a>",
+      "agreement_html": "Súhlasím so <a href=\"{{ terms_url }}\" target=\"_blank\">všeobecnými obchodnými podmienkami</a>",
       "confirmation": "Pred pokračovaním musíte súhlasiť so zmluvnými podmienkami."
     }
   },
