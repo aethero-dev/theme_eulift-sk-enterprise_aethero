@@ -3630,7 +3630,7 @@
   "cart": {
     "general": {
       "title": "Váš košík",
-      "empty": "vaša karta je prázdna",
+      "empty": "Váš vozík je prázdny",
       "start_shopping": "Začnite nakupovať",
       "backorder": "Produkt je doobjednaný a bude odoslaný hneď, ako bude opäť na sklade.",
       "view_cart": "Pozrieť košík",
