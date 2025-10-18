@@ -46,7 +46,6 @@
         },
         "slide_rRGHcC": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image_desktop": "shopify://shop_images/euliftcz_top_banner_akceakcni_nabidka_cbd15j-li-s_SK.jpg",
             "image_mobile": "shopify://shop_images/euliftcz_top_banner_akceakcni_nabidka_cbd15j-li-s_mobil_SK.jpg",
@@ -57,7 +56,7 @@
             "heading": "SKVELÁ CENA",
             "heading_size": "h1",
             "heading_h1": true,
-            "text": "<p><strong>Na elektrické paletové vozíky <br/>sme na na slovenskom trhu jednotka. </strong><br/>Pozrite sa na jeden z našich<br/>nejpredávanejších vedených <br/>vozíkov.<br/><br/></p>",
+            "text": "<p><strong>Na elektrické paletové vozíky <br/>sme na slovenskom trhu jednotka. </strong><br/>Pozrite sa na jeden z našich<br/>nejpredávanejších vedených <br/>vozíkov.<br/><br/></p>",
             "enlarge_text": true,
             "button_1_label": "To chcem",
             "button_1_link": "shopify://products/paletovy-vozik-cbd15j-li-s",
