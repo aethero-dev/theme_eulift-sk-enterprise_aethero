@@ -454,7 +454,11 @@
             {% endif %}
               
             {% if product.metafields.custom.sk_navod_k_nabijecce %} 
-              <a href="{{ product.metafields.custom.cz_navod_k_nabijecce | file_url }}" target="blank"><p style="font-weight:bold; text-decoration:underline;">Návod k nabíjačce</p></a>
+              <a href="{{ product.metafields.custom.sk_navod_k_nabijecce | file_url }}" target="blank"><p style="font-weight:bold; text-decoration:underline;">Návod k nabíjačke</p></a>
+            {% endif %}
+
+            {% if product.metafields.custom.navod_k_nabijeni_baterie%} 
+              <a href="{{ product.metafields.custom.navod_k_nabijeni_baterie | file_url }}" target="blank"><p style="font-weight:bold; text-decoration:underline;">návod nabíjanie batérie</p></a>
             {% endif %}
           </div>
 </div>
