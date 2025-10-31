@@ -44,6 +44,38 @@
             "bg_grad": ""
           }
         },
+        "slide-1": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify://shop_images/euliftcz_top_banner_vyprodej_CDD_s_gelovou_baterii_SK.jpg",
+            "image_mobile": "shopify://shop_images/euliftcz_top_banner_vyprodej_CDD_s_gelovou_baterii_mobil_SK.jpg",
+            "overlay_position": "justify-start items-start",
+            "overlay_text_align": "text-start",
+            "mob_center_text": false,
+            "subheading": "",
+            "heading": "SKLADOVÝ VÝPREDAJ",
+            "heading_size": "h1",
+            "heading_h1": true,
+            "text": "<p>vysokozdvižné vozíky ručne vedené elektrické</p>",
+            "enlarge_text": true,
+            "button_1_label": "Idem si vybrať tovar!",
+            "button_1_link": "shopify://pages/vypredaj",
+            "button_1_style": "btn btn--primary",
+            "button_2_label": "",
+            "button_2_link": "#",
+            "button_2_style": "btn btn--secondary",
+            "countdown_show": false,
+            "countdown_end_date": "",
+            "countdown_end_time": "",
+            "countdown_end_text": "",
+            "enlarge_end_text": false,
+            "countdown_hide_on_end": false,
+            "use_custom_colors": false,
+            "count_color": "#ffffff",
+            "bg_color": "#070707",
+            "bg_grad": ""
+          }
+        },
         "slide_kMLn3w": {
           "type": "slide",
           "settings": {
@@ -108,38 +140,6 @@
             "bg_grad": ""
           }
         },
-        "slide-1": {
-          "type": "slide",
-          "settings": {
-            "image_desktop": "shopify://shop_images/euliftcz_top_banner_vyprodej_CDD_s_gelovou_baterii_SK.jpg",
-            "image_mobile": "shopify://shop_images/euliftcz_top_banner_vyprodej_CDD_s_gelovou_baterii_mobil_SK.jpg",
-            "overlay_position": "justify-start items-start",
-            "overlay_text_align": "text-start",
-            "mob_center_text": false,
-            "subheading": "",
-            "heading": "SKLADOVÝ VÝPREDAJ",
-            "heading_size": "h1",
-            "heading_h1": true,
-            "text": "<p>vysokozdvižné vozíky ručne vedené elektrické</p>",
-            "enlarge_text": true,
-            "button_1_label": "Idem si vybrať tovar!",
-            "button_1_link": "shopify://pages/vypredaj",
-            "button_1_style": "btn btn--primary",
-            "button_2_label": "",
-            "button_2_link": "#",
-            "button_2_style": "btn btn--secondary",
-            "countdown_show": false,
-            "countdown_end_date": "",
-            "countdown_end_time": "",
-            "countdown_end_text": "",
-            "enlarge_end_text": false,
-            "countdown_hide_on_end": false,
-            "use_custom_colors": false,
-            "count_color": "#ffffff",
-            "bg_color": "#070707",
-            "bg_grad": ""
-          }
-        },
         "2b1e300b-a0a7-4a95-aa24-7ab800a9e1ed": {
           "type": "slide",
           "settings": {
@@ -175,9 +175,9 @@
       },
       "block_order": [
         "slide_rRGHcC",
+        "slide-1",
         "slide_kMLn3w",
         "ced40511-ca73-41be-819f-8f2b1cecd281",
-        "slide-1",
         "2b1e300b-a0a7-4a95-aa24-7ab800a9e1ed"
       ],
       "settings": {
