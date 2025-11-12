@@ -1860,7 +1860,7 @@
         "draft_order_payment_due_later_no_terms_payment_selected": "Po potvrdení objednávky bude platba zaúčtovaná na vašu kartu.",
         "draft_order_payment_due_later_terms": "Po potvrdení objednávky budete dodržiavať podmienky {{translatedName}} .",
         "draft_order_payment_due_on_fulfillment": "Vaša platba bude splatná po potvrdení a vybavení objednávky.",
-        "cash_on_delivery_label": "DOBIERKA (+ 5 €)",
+        "cash_on_delivery_label": "DOBIERKA (+ 8 €)",
         "money_order_label": "Peňažný príkaz",
         "deferred_payment_label": "Spôsob platby vyberte neskôr"
       },
