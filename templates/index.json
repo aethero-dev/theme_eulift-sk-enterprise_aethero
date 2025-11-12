@@ -12,22 +12,22 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "slide_kMLn3w": {
+        "slide_rRGHcC": {
           "type": "slide",
           "settings": {
-            "image_desktop": "shopify://shop_images/2560x1139.jpg",
-            "image_mobile": "shopify://shop_images/2560x2560.jpg",
+            "image_desktop": "shopify://shop_images/euliftcz_top_banner_akceakcni_nabidka_cbd15j-li-s_SK.jpg",
+            "image_mobile": "shopify://shop_images/euliftcz_top_banner_akceakcni_nabidka_cbd15j-li-s_mobil_SK.jpg",
             "overlay_position": "justify-start items-start",
             "overlay_text_align": "text-start",
             "mob_center_text": false,
-            "subheading": "",
-            "heading": "Naše najpredávanejšie produkty za skvelú cenu",
+            "subheading": "CBD15J-LI-S",
+            "heading": "SKVELÁ CENA",
             "heading_size": "h1",
-            "heading_h1": false,
-            "text": "<p>Vyberte si pomocníka z radu <strong>BLACK EDITION</strong></p><ul><li>paletový vozík <strong>BFBE25</strong></li><li>paletový vozík elektrický <strong>CBD15J-LI-S-BE</strong></li><li>vysokozdvižný vozík<strong> CDD1525J-LI-BE</strong></li></ul>",
+            "heading_h1": true,
+            "text": "<p><strong>Na elektrické paletové vozíky <br/>sme na slovenskom trhu jednotka. </strong><br/>Pozrite sa na jeden z našich<br/>nejpredávanejších vedených <br/>vozíkov.<br/><br/></p>",
             "enlarge_text": true,
-            "button_1_label": "jdu si vybrať",
-            "button_1_link": "shopify://collections/akcni-nabidka",
+            "button_1_label": "To chcem",
+            "button_1_link": "shopify://products/paletovy-vozik-cbd15j-li-s",
             "button_1_style": "btn btn--primary",
             "button_2_label": "",
             "button_2_link": "",
@@ -44,22 +44,22 @@
             "bg_grad": ""
           }
         },
-        "slide_rRGHcC": {
+        "slide_kMLn3w": {
           "type": "slide",
           "settings": {
-            "image_desktop": "shopify://shop_images/vyprodej_10022025_sk.jpg",
-            "image_mobile": "shopify://shop_images/vyprodej_10022025_2560px_sk.jpg",
+            "image_desktop": "shopify://shop_images/2560x1139.jpg",
+            "image_mobile": "shopify://shop_images/2560x2560.jpg",
             "overlay_position": "justify-start items-start",
             "overlay_text_align": "text-start",
             "mob_center_text": false,
             "subheading": "",
-            "heading": "EXTRÉMNY PREDAJ ZÁSOB",
+            "heading": "Naše najpredávanejšie produkty za skvelú cenu",
             "heading_size": "h1",
-            "heading_h1": true,
-            "text": "<p>za ceny, ktoré sa už nebudú opakovať</p>",
+            "heading_h1": false,
+            "text": "<p>Vyberte si pomocníka z radu <strong>BLACK EDITION</strong></p><ul><li>paletový vozík <strong>BFBE25</strong></li><li>paletový vozík elektrický <strong>CBD15J-LI-S-BE</strong></li><li>vysokozdvižný vozík<strong> CDD1525J-LI-BE</strong></li></ul>",
             "enlarge_text": true,
-            "button_1_label": "Jdu si vybrať",
-            "button_1_link": "shopify://pages/vypredaj",
+            "button_1_label": "jdu si vybrať",
+            "button_1_link": "shopify://collections/akcni-nabidka",
             "button_1_style": "btn btn--primary",
             "button_2_label": "",
             "button_2_link": "",
@@ -117,12 +117,12 @@
             "overlay_text_align": "text-start",
             "mob_center_text": false,
             "subheading": "",
-            "heading": "Veškerá manipulační technika EULIFT a HELI pro váš sklad",
+            "heading": "Všetka manipulačná technika EULIFT a HELI pre váš sklad",
             "heading_size": "h1",
             "heading_h1": true,
-            "text": "<p>Vše co můžete potřebovat, od malých paleťáků přes vysokozdvižné vozíky, zdvihací stoly či plošiny až po čelní motorové vozíky.</p>",
+            "text": "<p>Všetko čo môžete potrebovať, od malých paleťákov cez vysokozdvižné vozíky, zdvíhacie stoly či plošiny až po čelné motorové vozíky. </p>",
             "enlarge_text": true,
-            "button_1_label": "Jdu si vybrat zboží!",
+            "button_1_label": "Idem si vybrať tovar!",
             "button_1_link": "shopify://collections/kompletni-sortiment",
             "button_1_style": "btn btn--primary",
             "button_2_label": "",
@@ -174,8 +174,8 @@
         }
       },
       "block_order": [
-        "slide_kMLn3w",
         "slide_rRGHcC",
+        "slide_kMLn3w",
         "ced40511-ca73-41be-819f-8f2b1cecd281",
         "slide-1",
         "2b1e300b-a0a7-4a95-aa24-7ab800a9e1ed"
@@ -223,8 +223,14 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": "paletove-voziky-standardni",
-            "image": "shopify://shop_images/01-paletove-voziky-01_standard_DF20_png.webp"
+            "collection": "vysokozdvizne-voziky-rucne-vedene-elektricke",
+            "image": "shopify://shop_images/04_rucne_vedene_elektricke_CDD1225J-LI-BE_03.png"
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "vysokozdvizne-voziky"
           }
         },
         "collection-1": {
@@ -244,12 +250,6 @@
           "settings": {
             "collection": "paletove-voziky-snizene"
           }
-        },
-        "collection-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "vysokozdvizne-voziky"
-          }
         }
       },
       "block_order": [
@@ -257,10 +257,10 @@
         "collection_wijENT",
         "collection-5",
         "collection-0",
+        "collection-4",
         "collection-1",
         "collection-2",
-        "collection-3",
-        "collection-4"
+        "collection-3"
       ],
       "settings": {
         "title": "",

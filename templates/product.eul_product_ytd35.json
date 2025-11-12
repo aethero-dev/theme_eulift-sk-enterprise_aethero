@@ -74,7 +74,6 @@
             "show_tax_and_shipping": false
           }
         },
-        
         "buy-buttons": {
           "type": "buy-buttons",
           "settings": {
@@ -159,15 +158,13 @@
         "divider-0",
         "97e3fb95-e8e5-4640-b8cf-81f9031aa4c7",
         "price",
-        "74fcb4e7-3982-4233-8412-790c84380ec6",
         "buy-buttons",
         "message-1",
         "message-2",
         "collapsible-content-2",
         "share",
         "message-3",
-        "3e20cfb2-9a29-4ede-a25d-a0b558debdfa",
-        "2eda680c-0225-47ec-9916-0ebb8ab9ca64"
+        "3e20cfb2-9a29-4ede-a25d-a0b558debdfa"
       ],
       "settings": {
         "stick_on_scroll": true,
@@ -233,7 +230,6 @@
             "custom_liquid": "{% if product.metafields.custom.rotation_url != blank %}\n<center><iframe class=\"rotation-desktop\" src=\"{{ product.metafields.custom.rotation_url }}\" frameborder=\"0\" scrolling=\"no\" style=\"width: 544px; height: 408px;\"></iframe></center>\n<center><iframe class=\"rotation-mobile\" src=\"{{ product.metafields.custom.rotation_url_mobile }}\" width=\"320\" frameborder=\"0\" scrolling=\"no\" style=\"width: 320px; height: 420px;\" ></iframe></center>\n{% endif %}"
           }
         },
-        
         "payment-methods": {
           "type": "payment-methods",
           "disabled": true,
@@ -246,15 +242,11 @@
             "text2": ""
           }
         }
-    
       },
       "block_order": [
         "tabs",
         "2dc71c1b-947c-43bf-b36f-1d8291092554",
-        "highlight-text",
-        "payment-methods",
-        "2dc4ffc2-fb7c-4fcc-851e-af90eecbfb0a",
-        "6d0d33e5-69ec-43f4-becf-3605f1e72c47"
+        "payment-methods"
       ],
       "settings": {}
     },
@@ -265,7 +257,7 @@
           "type": "feature",
           "settings": {
             "heading": "Zdvih duplex",
-            "text": "<p>nízká konstrukční výška vozíku 1270 mm</p>",
+            "text": "<p>nízka konštrukčná výška vozíka 1270 mm</p>",
             "content_align": "text-start",
             "hotspot_x": 34,
             "hotspot_y": 19
@@ -274,8 +266,8 @@
         "product-features-feature-1": {
           "type": "feature",
           "settings": {
-            "heading": "Ovládací kolo",
-            "text": "<p>ovládá otáčení sudu až na 180°</p>",
+            "heading": "Ovládacie koleso",
+            "text": "<p>ovláda otáčanie suda až na 180 °</p>",
             "content_align": "text-start",
             "hotspot_x": 52,
             "hotspot_y": 31
@@ -284,8 +276,8 @@
         "product-features-feature-2": {
           "type": "feature",
           "settings": {
-            "heading": "Nožní páka",
-            "text": "<p>slouží ke zdvihání upínače sudů - alternativa zdvihu pumpování ojí</p>",
+            "heading": "Nožná páka",
+            "text": "<p>slúži na zdvíhanie upínača sudov - alternatíva zdvihu pumpovania oja</p>",
             "content_align": "text-start",
             "hotspot_x": 32,
             "hotspot_y": 70
@@ -294,8 +286,8 @@
         "product-features-feature-3": {
           "type": "feature",
           "settings": {
-            "heading": "Aretační brzda",
-            "text": "<p>pro snadné zabrzdění vozíku</p>",
+            "heading": "Aretačná brzda",
+            "text": "<p>pre ľahké zabrzdenie vozíka</p>",
             "content_align": "text-start",
             "hotspot_x": 28,
             "hotspot_y": 80
@@ -321,7 +313,7 @@
         "enlarge_text": false,
         "image": "shopify://shop_images/vysokozdvizny_vozik_rucni_na_sudy_SDJ-FW_01.jpg",
         "title": "{{ section.settings.product.title }}",
-        "description": "<p>Podívejte se na výhody tohoto produktu:</p>",
+        "description": "<p>Pozrite sa na výhody tohto produktu:</p>",
         "button_label": "",
         "button_link": "",
         "hotspot_color": "#e42b2c",

@@ -1860,7 +1860,7 @@
         "draft_order_payment_due_later_no_terms_payment_selected": "Po potvrdení objednávky bude platba zaúčtovaná na vašu kartu.",
         "draft_order_payment_due_later_terms": "Po potvrdení objednávky budete dodržiavať podmienky {{translatedName}} .",
         "draft_order_payment_due_on_fulfillment": "Vaša platba bude splatná po potvrdení a vybavení objednávky.",
-        "cash_on_delivery_label": "DOBIERKA (+ 5 €)",
+        "cash_on_delivery_label": "DOBIERKA (+ 8 €)",
         "money_order_label": "Peňažný príkaz",
         "deferred_payment_label": "Spôsob platby vyberte neskôr"
       },
@@ -3630,7 +3630,7 @@
   "cart": {
     "general": {
       "title": "Váš košík",
-      "empty": "vaša karta je prázdna",
+      "empty": "Váš vozík je prázdny",
       "start_shopping": "Začnite nakupovať",
       "backorder": "Produkt je doobjednaný a bude odoslaný hneď, ako bude opäť na sklade.",
       "view_cart": "Pozrieť košík",
@@ -3674,7 +3674,7 @@
       "continue_shopping": "Pokračovať v nákupe"
     },
     "terms": {
-      "agreement_html": "Súhlasím s <a href=\"&lt;span%20class='notranslate'&gt;%7B%7B%20terms_url%20%7D%7D&lt;/span&gt;\" target=\"_blank\">podmienkami a politikou vrátenia peňazí</a>",
+      "agreement_html": "Súhlasím so <a href=\"{{ terms_url }}\" target=\"_blank\">všeobecnými obchodnými podmienkami</a>",
       "confirmation": "Pred pokračovaním musíte súhlasiť so zmluvnými podmienkami."
     }
   },
@@ -3838,7 +3838,7 @@
       "list_layout": "Zoznam",
       "colors_single": "K dispozícii 1 farba",
       "colors_count": "Počet dostupných farieb {{ count }}",
-      "view": "Zobraziť kolekciu"
+      "view": "Zobraziť produkty"
     },
     "countdown": {
       "days": "Dni",

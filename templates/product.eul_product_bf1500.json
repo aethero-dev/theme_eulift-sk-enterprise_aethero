@@ -4,7 +4,7 @@
  *
  * This file may be updated by the Shopify admin theme editor
  * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten. 
+ * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
 {
@@ -74,7 +74,6 @@
             "show_tax_and_shipping": false
           }
         },
-        
         "buy-buttons": {
           "type": "buy-buttons",
           "settings": {
@@ -159,7 +158,6 @@
         "divider-0",
         "97e3fb95-e8e5-4640-b8cf-81f9031aa4c7",
         "price",
-        "74fcb4e7-3982-4233-8412-790c84380ec6",
         "buy-buttons",
         "message-1",
         "message-2",
@@ -232,7 +230,6 @@
             "custom_liquid": "{% if product.metafields.custom.rotation_url != blank %}\n<center><iframe class=\"rotation-desktop\" src=\"{{ product.metafields.custom.rotation_url }}\" frameborder=\"0\" scrolling=\"no\" style=\"width: 544px; height: 408px;\"></iframe></center>\n<center><iframe class=\"rotation-mobile\" src=\"{{ product.metafields.custom.rotation_url_mobile }}\" width=\"320\" frameborder=\"0\" scrolling=\"no\" style=\"width: 320px; height: 420px;\" ></iframe></center>\n{% endif %}"
           }
         },
-        
         "payment-methods": {
           "type": "payment-methods",
           "disabled": true,
@@ -245,15 +242,11 @@
             "text2": ""
           }
         }
-    
       },
       "block_order": [
         "tabs",
         "2dc71c1b-947c-43bf-b36f-1d8291092554",
-        "highlight-text",
-        "payment-methods",
-        "2dc4ffc2-fb7c-4fcc-851e-af90eecbfb0a",
-        "6d0d33e5-69ec-43f4-becf-3605f1e72c47"
+        "payment-methods"
       ],
       "settings": {}
     },
@@ -504,7 +497,7 @@
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "Související zboží",
+        "heading": "Súvisiaci tovar",
         "heading_align": "text-start",
         "layout": "carousel",
         "card_size": "small",

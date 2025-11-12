@@ -74,7 +74,6 @@
             "show_tax_and_shipping": false
           }
         },
-        
         "buy-buttons": {
           "type": "buy-buttons",
           "settings": {
@@ -159,15 +158,13 @@
         "divider-0",
         "97e3fb95-e8e5-4640-b8cf-81f9031aa4c7",
         "price",
-        "74fcb4e7-3982-4233-8412-790c84380ec6",
         "buy-buttons",
         "message-1",
         "message-2",
         "collapsible-content-2",
         "share",
         "message-3",
-        "3e20cfb2-9a29-4ede-a25d-a0b558debdfa",
-        "2eda680c-0225-47ec-9916-0ebb8ab9ca64"
+        "3e20cfb2-9a29-4ede-a25d-a0b558debdfa"
       ],
       "settings": {
         "stick_on_scroll": true,
@@ -233,7 +230,6 @@
             "custom_liquid": "{% if product.metafields.custom.rotation_url != blank %}\n<center><iframe class=\"rotation-desktop\" src=\"{{ product.metafields.custom.rotation_url }}\" frameborder=\"0\" scrolling=\"no\" style=\"width: 544px; height: 408px;\"></iframe></center>\n<center><iframe class=\"rotation-mobile\" src=\"{{ product.metafields.custom.rotation_url_mobile }}\" width=\"320\" frameborder=\"0\" scrolling=\"no\" style=\"width: 320px; height: 420px;\" ></iframe></center>\n{% endif %}"
           }
         },
-        
         "payment-methods": {
           "type": "payment-methods",
           "disabled": true,
@@ -246,15 +242,11 @@
             "text2": ""
           }
         }
-    
       },
       "block_order": [
         "tabs",
         "2dc71c1b-947c-43bf-b36f-1d8291092554",
-        "highlight-text",
-        "payment-methods",
-        "2dc4ffc2-fb7c-4fcc-851e-af90eecbfb0a",
-        "6d0d33e5-69ec-43f4-becf-3605f1e72c47"
+        "payment-methods"
       ],
       "settings": {}
     },
@@ -267,15 +259,15 @@
             "heading": "Výška zdvihu",
             "text": "<p>2500 mm</p>",
             "content_align": "text-start",
-            "hotspot_x": 50,
+            "hotspot_x": 45,
             "hotspot_y": 10
           }
         },
         "product-features-feature-1": {
           "type": "feature",
           "settings": {
-            "heading": "Tlačítko \"odskoku\"",
-            "text": "<p>bezpečnostní červené tlačítko chrání obsluhu před možným úrazem. Například<br/>přimáčknutí ojí při manipulaci.</p>",
+            "heading": "Tlačidlo \"odskoku\"",
+            "text": "<p>bezpečnostné červené tlačidlo chráni obsluhu pred možným úrazom. Napríklad pritlačenie ojom pri manipulácii.</p>",
             "content_align": "text-start",
             "hotspot_x": 65,
             "hotspot_y": 30
@@ -284,8 +276,8 @@
         "product-features-feature-2": {
           "type": "feature",
           "settings": {
-            "heading": "Pohon vozíku - lithiová baterie",
-            "text": "<p>vozík pohání baterie o kapacitě 25.6/150 V/Ah</p>",
+            "heading": "Pohon vozíka - lítiová batéria",
+            "text": "<p>vozík poháňa batérie s kapacitou 25.6 V/150 Ah</p>",
             "content_align": "text-start",
             "hotspot_x": 54,
             "hotspot_y": 70
@@ -295,7 +287,7 @@
           "type": "feature",
           "settings": {
             "heading": "Nosné vidlice",
-            "text": "<p>o délce 1150 mm na běžné EURO palety.</p>",
+            "text": "<p>s dĺžkou 1150 mm na bežné EURO palety.</p>",
             "content_align": "text-start",
             "hotspot_x": 34,
             "hotspot_y": 80
@@ -319,9 +311,8 @@
         "mob_center_text": false,
         "heading_size": "h1",
         "enlarge_text": false,
-        "image": "shopify://shop_images/cdd2020j_01_cr__01_1_1_1_1_9baf117e-9675-49a3-951c-6b30a6b7eb16.jpg",
         "title": "{{ section.settings.product.title }}",
-        "description": "<p>Podívejte se na výhody tohoto produktu:</p>",
+        "description": "<p>Pozrite sa na výhody tohto produktu:</p>",
         "button_label": "",
         "button_link": "",
         "hotspot_color": "#e42b2c",
@@ -364,7 +355,7 @@
       ],
       "settings": {
         "heading": "Podobné produkty",
-        "text": "<p>Pokud hledáte produkt s podobným zaměřeným, vlastnostmi či výkonem</p>",
+        "text": "<p>Ak hľadáte produkt s podobným zameraným, vlastnosťami či výkonom</p>",
         "heading_align": "text-center",
         "view_more_label": "View more",
         "view_more_link": "",
@@ -505,7 +496,7 @@
     "recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "Související zboží",
+        "heading": "Súvisiaci tovar",
         "heading_align": "text-start",
         "layout": "carousel",
         "card_size": "small",
@@ -518,7 +509,7 @@
         "template--21519870918965__e62d37c7-75a1-4085-8b0c-9a62fafaeb0c-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Video o produktu",
+            "heading": "Video o produkte",
             "heading_size": "h2",
             "heading_h1": false
           }
@@ -526,7 +517,7 @@
         "template--21519870918965__e62d37c7-75a1-4085-8b0c-9a62fafaeb0c-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h5>Vysokozdvižný elektrický vozík HELI CDD12 řady J</h5>",
+            "text": "<h5>Vysokozdvižný elektrický vozík HELI CDD12 radu J</h5>",
             "enlarge_text": true
           }
         }
