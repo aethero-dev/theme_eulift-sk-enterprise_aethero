@@ -223,8 +223,12 @@ document.addEventListener('DOMContentLoaded', function() {
                             '€' + button.dataset.productPrice.replace(/\B(?=(\d{3})+(?!\d))/g, ' '),
                       style: 'bold' 
                     },
-                    { text: '\nDátum vyhotovenia:', style: 'label' },
-                    { text: new Date().toLocaleDateString('cs-CZ') }
+                    { text: '\nPlatnosť ponuky do:', style: 'label' },
+                  { text: (() => {
+                      const date = new Date();
+                      date.setDate(date.getDate() + 7);
+                      return date.toLocaleDateString('cs-CZ');
+                    })() }
                   ]
                 ]
               ]
