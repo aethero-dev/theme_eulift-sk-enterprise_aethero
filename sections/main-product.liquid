@@ -185,9 +185,29 @@
 
         {%- comment -%}Aethero code edit start{%- endcomment -%} 
         <div class="price-with-tax"><span id="tax-price">{{ product.price | times: 1.21 | money }} s DPH</span></div>
-        <div class="delivery">
-          Doručenie: {{ 0 | money }}
+        <div class="delivery" id="delivery-cost" data-delivery-free="0" data-delivery-standard="800" data-weight-threshold="5000" data-delivery-free-formatted="{{ 0 | money }}" data-delivery-standard-formatted="{{ 800 | money }}">
+          {%- assign product_weight_grams = current_variant.weight | default: product.weight | default: 0 -%}
+          {%- if product_weight_grams > 5000 -%}
+            <span class="delivery-cost-value">Doručenie: {{ 0 | money }}</span>
+          {%- else -%}
+            <span class="delivery-cost-value">Doručenie: {{ 800 | money }}</span>
+           
+          {%- endif -%}
 </div>
+<script>
+  // Store product variants data for delivery calculation
+  window.productDeliveryData = {
+    variants: [
+      {%- for variant in product.variants -%}
+      {
+        id: {{ variant.id }},
+        weight: {{ variant.weight | default: product.weight | default: 0 }}
+      }{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    ]
+  };
+</script>
+<script src="{{ 'aethero-product-delivery-calculator.js' | asset_url }}" defer="defer"></script>
  
       <div>
               <span class="inventory-icon">
